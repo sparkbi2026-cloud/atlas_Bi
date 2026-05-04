@@ -9,7 +9,7 @@ export async function GET() {
     <item>
       <title>${post.title}</title>
       <link>${baseUrl}/blog/${post.slug}</link>
-      <description>${post.excerpt}</description>
+      <description>${post.description}</description>
       <pubDate>${new Date(post.publishedAt || "").toUTCString()}</pubDate>
       <guid>${baseUrl}/blog/${post.slug}</guid>
     </item>`)
