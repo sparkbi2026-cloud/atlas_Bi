@@ -124,8 +124,8 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           </Link>
 
           <div className="max-w-4xl">
-            <div className="flex items-center gap-4 text-xs font-black text-indigo-600 uppercase tracking-widest mb-8">
-              <span className="px-3 py-1 bg-indigo-50 rounded-full">Article #{post.blogNumber}</span>
+            <div className="flex items-center gap-4 text-xs font-black text-slate-900 uppercase tracking-widest mb-8">
+              <span className="px-3 py-1 bg-slate-50 border border-slate-100 rounded-full">Article #{post.blogNumber}</span>
               <span className="w-1.5 h-1.5 rounded-full bg-slate-200" />
               <span className="text-slate-400 flex items-center gap-1.5">
                 <Calendar className="w-3.5 h-3.5" /> {new Date(post.publishedAt).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
@@ -176,7 +176,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                       return (
                         <div
                           key={i}
-                          className="block text-[13px] font-bold text-slate-600 hover:text-indigo-600 transition-colors leading-snug cursor-pointer"
+                          className="block text-[13px] font-bold text-slate-600 hover:text-slate-900 transition-colors leading-snug cursor-pointer"
                         >
                           {title}
                         </div>
@@ -188,7 +188,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
 
                 <div className="space-y-6">
                   <div className="flex items-center gap-3 text-slate-900">
-                    <TrendingUp className="w-4 h-4 text-indigo-500" />
+                    <TrendingUp className="w-4 h-4 text-slate-900" />
                     <span className="text-[11px] font-black uppercase tracking-widest">Trending Now</span>
                   </div>
                   <div className="space-y-4">
@@ -221,7 +221,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                     th: ({ node, ...props }) => <th className="p-4 bg-slate-50 font-bold text-slate-900 border-b border-slate-100" {...props} />,
                     td: ({ node, ...props }) => <td className="p-4 border-b border-slate-50 text-slate-600" {...props} />,
                     blockquote: ({ node, ...props }) => (
-                      <blockquote className="border-l-4 border-indigo-500 pl-6 py-2 italic text-slate-700 bg-indigo-50/50 rounded-r-2xl my-10" {...props} />
+                      <blockquote className="border-l-4 border-slate-900 pl-6 py-2 italic text-slate-700 bg-slate-50 rounded-r-2xl my-10" {...props} />
                     ),
                     hr: () => <hr className="my-16 border-slate-100" />
                   }}
@@ -237,7 +237,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                     <p className="text-slate-400 mb-8 text-lg leading-relaxed">
                       Join 20k+ data-first teams who use AtlasBI to turn raw datasets into professional insights in seconds.
                     </p>
-                    <button className="px-8 py-4 bg-white text-slate-900 rounded-full font-bold hover:bg-indigo-50 transition-all active:scale-95 shadow-xl flex items-center gap-2">
+                    <button className="px-8 py-4 bg-white text-slate-900 rounded-full font-bold hover:bg-slate-50 transition-all active:scale-95 shadow-xl flex items-center gap-2">
                       Start Visualizing Free <ArrowRight className="w-4 h-4" />
                     </button>
                   </div>
@@ -256,7 +256,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                     helping teams reclaim their time and lead with data-driven confidence.
                   </p>
                   <div className="flex items-center gap-4 mt-6">
-                    <button className="text-sm font-bold text-indigo-600 hover:text-indigo-700 transition-colors">Follow on LinkedIn</button>
+                    <button className="text-sm font-bold text-slate-900 hover:text-black transition-colors">Follow on LinkedIn</button>
                     <button className="text-sm font-bold text-slate-400 hover:text-slate-600 transition-colors">View all articles</button>
                   </div>
                 </div>

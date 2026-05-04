@@ -34,13 +34,13 @@ export default function BlogSearchAndFilter({ allPosts }: { allPosts: BlogPost[]
       <div className="container mx-auto px-6 mb-16 relative z-10">
         <div className="max-w-2xl mx-auto mb-12">
           <div className="relative group">
-            <Search className="absolute left-6 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-400 group-focus-within:text-indigo-500 transition-colors" />
+            <Search className="absolute left-6 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-400 group-focus-within:text-slate-900 transition-colors" />
             <input 
               type="text" 
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder="Search articles by title or keyword..." 
-              className="w-full pl-14 pr-8 py-5 bg-white/80 backdrop-blur-xl border border-slate-200 rounded-[32px] text-lg font-medium text-slate-900 focus:outline-none focus:ring-4 focus:ring-indigo-500/10 focus:border-indigo-500 transition-all shadow-xl shadow-slate-200/20"
+              className="w-full pl-14 pr-8 py-5 bg-white/80 backdrop-blur-xl border border-slate-200 rounded-[32px] text-lg font-medium text-slate-900 focus:outline-none focus:ring-4 focus:ring-slate-500/10 focus:border-slate-900 transition-all shadow-xl shadow-slate-200/20"
             />
           </div>
         </div>
@@ -53,7 +53,7 @@ export default function BlogSearchAndFilter({ allPosts }: { allPosts: BlogPost[]
               className={`flex items-center gap-2.5 px-6 py-3 rounded-full text-sm font-bold transition-all border ${
                 activeLang === lang.code
                   ? "bg-white text-slate-900 border-slate-900 shadow-md ring-1 ring-slate-900"
-                  : "bg-indigo-50/50 text-slate-600 border-indigo-100/50 hover:bg-white hover:border-slate-300"
+                  : "bg-slate-50 text-slate-600 border-slate-100 hover:bg-white hover:border-slate-300"
               }`}
             >
               <span className="text-base grayscale-0">{lang.flag}</span>
@@ -95,7 +95,7 @@ export default function BlogSearchAndFilter({ allPosts }: { allPosts: BlogPost[]
                     </div>
                   </div>
 
-                  <h2 className="text-2xl font-bold text-slate-900 mb-4 group-hover:text-indigo-600 transition-colors line-clamp-2 leading-tight">
+                  <h2 className="text-2xl font-bold text-slate-900 mb-4 group-hover:text-slate-900 transition-colors line-clamp-2 leading-tight">
                     {post.title}
                   </h2>
 
@@ -110,7 +110,7 @@ export default function BlogSearchAndFilter({ allPosts }: { allPosts: BlogPost[]
                       </div>
                       <span className="text-[13px] font-bold text-slate-900">AtlasBI Team</span>
                     </div>
-                    <div className="text-indigo-600 font-bold text-xs flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+                    <div className="text-slate-900 font-bold text-xs flex items-center gap-1 group-hover:translate-x-1 transition-transform">
                       Read More <ArrowRight className="w-4 h-4" />
                     </div>
                   </div>

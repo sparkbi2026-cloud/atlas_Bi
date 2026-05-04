@@ -20,7 +20,7 @@ export default async function BlogPage() {
 
             <div className="container mx-auto px-6 relative z-10">
                <div className="max-w-4xl mx-auto text-center mb-20">
-                  <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-indigo-50 border border-indigo-100 text-indigo-600 text-[10px] font-black tracking-widest uppercase mb-6">
+                  <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-slate-50 border border-slate-100 text-slate-900 text-[10px] font-black tracking-widest uppercase mb-6">
                      <Sparkles className="w-3.5 h-3.5" />
                      AtlasBI Intelligence
                   </div>
