@@ -111,28 +111,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
       {/* ── ARTICLE HEADER ── */}
       <header className="relative pt-48 pb-20 overflow-hidden">
         <div className="absolute inset-0 z-0 pointer-events-none opacity-80">
-          <InteractiveGridPattern
-            width={40}
-            height={40}
-            squares={[
-              [4, 4],
-              [5, 1],
-              [8, 2],
-              [5, 3],
-              [5, 5],
-              [10, 10],
-              [12, 15],
-              [15, 10],
-              [10, 15],
-              [15, 15],
-              [10, 10],
-              [12, 12],
-              [12, 15],
-              [15, 12],
-            ]}
-            radius={3}
-            opacity={0.3}
-          />
+          <InteractiveGridPattern />
         </div>
 
         <div className="container mx-auto px-6 relative z-10">

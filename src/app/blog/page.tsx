@@ -15,13 +15,7 @@ export default async function BlogPage() {
          {/* ── BLOG HERO ── */}
          <section className="relative pt-48 pb-20 overflow-hidden">
             <div className="absolute inset-0 z-0 pointer-events-none opacity-80">
-               <InteractiveGridPattern
-                  width={40}
-                  height={40}
-                  squares={[80, 80]}
-                  radius={1.5}
-                  opacity={0.8}
-               />
+               <InteractiveGridPattern />
             </div>
 
             <div className="container mx-auto px-6 relative z-10">
