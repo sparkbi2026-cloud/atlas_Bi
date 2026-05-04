@@ -1,0 +1,92 @@
+{
+  "autonomous-business-intelligence-guide": {
+    "en": "autonomous-business-intelligence-guide",
+    "de": "autonome-business-intelligence-leitfaden",
+    "fr": "guide-business-intelligence-autonome",
+    "es": "guia-de-inteligencia-de-negocios-autonoma"
+  },
+  "tableau-alternatives-2026": {
+    "en": "tableau-alternatives-2026",
+    "de": "tableau-alternativen-2026",
+    "fr": "alternatives-tableau-2026",
+    "es": "alternativas-a-tableau-2026"
+  },
+  "prompt-engineering-data-analytics": {
+    "en": "prompt-engineering-data-analytics",
+    "de": "prompt-engineering-fuer-datenanalyse",
+    "fr": "prompt-engineering-pour-lanalyse-de-donnees",
+    "es": "ingenieria-de-prompts-para-analisis-de-datos"
+  },
+  "best-ai-chart-generator-2026": {
+    "en": "best-ai-chart-generator-2026",
+    "de": "beste-ai-diagramm-generatoren-2026",
+    "fr": "meilleurs-generateurs-de-graphiques-ia-2026",
+    "es": "mejores-generadores-de-graficos-ia-2026"
+  },
+  "csv-to-chart-guide": {
+    "en": "csv-to-chart-guide",
+    "de": "csv-zu-diagramm-leitfaden",
+    "fr": "guide-csv-vers-graphique",
+    "es": "guia-de-csv-a-grafico"
+  },
+  "atlasbi-vs-tableau-2026": {
+    "en": "atlasbi-vs-tableau-2026",
+    "de": "atlasbi-vs-tableau-2026",
+    "fr": "atlasbi-vs-tableau-2026",
+    "es": "atlasbi-vs-tableau-2026"
+  },
+  "share-dashboard-clients-securely": {
+    "en": "share-dashboard-clients-securely",
+    "de": "dashboard-sicher-mit-kunden-teilen",
+    "fr": "partager-un-tableau-de-bord-avec-les-clients-en-toute-securite",
+    "es": "compartir-tablero-con-clientes-de-forma-segura"
+  },
+  "autonomous-data-cleaning-guide": {
+    "en": "autonomous-data-cleaning-guide",
+    "de": "autonome-datenbereinigung-leitfaden",
+    "fr": "guide-nettoyage-de-donnees-autonome",
+    "es": "guia-de-limpieza-de-datos-autonoma"
+  },
+  "ai-vs-traditional-bi-2026": {
+    "en": "ai-vs-traditional-bi-2026",
+    "de": "ai-bi-vs-traditionelle-bi-2026",
+    "fr": "ia-bi-vs-bi-traditionnelle-2026",
+    "es": "ia-bi-vs-bi-tradicional-2026"
+  },
+  "how-to-connect-google-sheets-to-ai-charts": {
+    "en": "how-to-connect-google-sheets-to-ai-charts",
+    "de": "google-sheets-mit-ai-diagrammen-verbinden",
+    "fr": "comment-connecter-google-sheets-aux-graphiques-ia",
+    "es": "como-conectar-google-sheets-a-graficos-ia"
+  },
+  "best-dashboard-tools-startups-2026": {
+    "en": "best-dashboard-tools-startups-2026",
+    "de": "beste-dashboard-tools-fuer-startups-2026",
+    "fr": "meilleurs-outils-de-tableau-de-bord-pour-les-startups-2026",
+    "es": "mejores-herramientas-de-tablero-para-startups-2026"
+  },
+  "how-to-create-investor-dashboard": {
+    "en": "how-to-create-investor-dashboard",
+    "de": "investor-dashboard-erstellen",
+    "fr": "comment-creer-un-tableau-de-bord-investisseur",
+    "es": "como-crear-un-tablero-de-inversores"
+  },
+  "what-is-natural-language-data-analysis": {
+    "en": "what-is-natural-language-data-analysis",
+    "de": "was-ist-natuerliche-sprache-datenanalyse",
+    "fr": "quest-ce-que-lanalyse-de-donnees-en-langage-naturel",
+    "es": "que-es-el-analisis-de-datos-en-lenguaje-natural"
+  },
+  "data-viz-ethics-ai": {
+    "en": "data-viz-ethics-ai",
+    "de": "datenvisualisierungsethik-im-ki-zeitalter",
+    "fr": "ethique-de-la-visualisation-des-donnees-a-lere-de-lia",
+    "es": "etica-de-la-visualizacion-de-datos-en-la-era-de-la-ia"
+  },
+  "ai-data-visualization-executive-decision-making": {
+    "en": "ai-data-visualization-executive-decision-making",
+    "de": "ai-datenvisualisierung-entscheidungsfindung-fuer-fuehrungskraefte",
+    "fr": "visualisation-des-donnees-par-ia-prise-de-decision-des-cadres",
+    "es": "visualizacion-de-datos-con-ia-toma-de-decisiones-ejecutivas"
+  }
+}

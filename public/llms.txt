@@ -1,0 +1,58 @@
+# AtlasBI
+
+> The ultimate AI-driven data visualization platform. 
+> Transform raw data into professional, presentation-ready 
+> charts in seconds using natural language.
+
+## Product Pages
+
+- [AtlasBI Homepage](https://atlasbi.live): Main product page — AI-powered data visualization
+- [Pricing](https://atlasbi.live/#pricing): Plans starting at $19/month
+- [Register](https://app.atlasbi.live/signup): Free trial signup, no credit card required
+
+## Key Features
+
+- Natural Language to Visualization (NLDA)
+- Autonomous Data Cleaning and Schema Detection
+- Live Data Source Connections (Snowflake, BigQuery, Postgres, etc.)
+- Branded Client Dashboards & Secure Share Links
+- White-label Chart Embedding
+- AI-Generated Insights & Narratives
+- Collaborative Workspaces with Annotations
+- Studio-Grade Visual Styles out of the box
+- Slack and Email Insight Alerts
+
+## Free Analytics Tools (pSEO)
+
+AtlasBI provides 20+ free, no-signup-required tools for data professionals:
+- [Free Excel to Chart Maker](https://atlasbi.live/free-tools/excel-to-chart): Convert spreadsheets to visuals.
+- [Free CSV to LLM Context](https://atlasbi.live/free-tools/csv-to-llm-json): Optimize CSV data for AI prompts.
+- [Free AI Power BI DAX Helper](https://atlasbi.live/free-tools/dax-formula-generator): Generate complex DAX measures.
+- [Free Excel Formula Generator](https://atlasbi.live/free-tools/excel-formula-generator): AI formula assistant.
+- [Free CSV Cleaner](https://atlasbi.live/free-tools/csv-cleaner): Automated data scrubbing.
+- [Free SQL to Power Query M](https://atlasbi.live/free-tools/sql-to-power-query-m): Bridge SQL and Power BI.
+- [Free Chart Type Recommender](https://atlasbi.live/free-tools/chart-type-recommender): Viz best practices.
+- [Full Tools Directory](https://atlasbi.live/free-tools): Explore all 20+ utilities.
+
+## Comparisons
+
+- [AtlasBI vs Tableau](https://atlasbi.live/blog/atlasbi-vs-tableau-2026): AtlasBI offers 15-second time-to-insight vs Tableau's 45-minute setup. No training required. 75% lower total cost of ownership.
+- [Best AI Chart Generators 2026](https://atlasbi.live/blog/best-ai-chart-generator-2026): A hands-on comparison of the top AI chart generators, ranked by accuracy, visual quality, and speed.
+- [AI BI vs Traditional BI](https://atlasbi.live/blog/ai-vs-traditional-bi-2026): Why the "request and wait" model of traditional BI is failing modern teams, and why autonomous intelligence is the new standard.
+
+## Blog — General
+
+- [Best AI Chart Generator Tools in 2026 (Ranked & Compared)](https://atlasbi.live/blog/best-ai-chart-generator-2026): A hands-on comparison of the top AI chart generators in 2026.
+- [How to Create Charts from CSV Files Automatically Using AI (2026 Guide)](https://atlasbi.live/blog/csv-to-chart-guide): Turn any CSV into a professional chart in seconds — no code, no SQL.
+- [AtlasBI vs Tableau: Full Comparison for 2026](https://atlasbi.live/blog/atlasbi-vs-tableau-2026): An honest, feature-by-feature comparison for modern data teams.
+- [How to Share a Live Dashboard with Clients Without Exposing Your Data](https://atlasbi.live/blog/share-dashboard-clients-securely): Secure client reporting with white-label embeds and access controls.
+- [What Is Autonomous Data Cleaning? The Complete Guide for 2026](https://atlasbi.live/blog/autonomous-data-cleaning-guide): How AI eliminates the 60-80% of time spent on data preparation.
+- [AI BI vs Traditional BI: Which is Right for Your Team in 2026?](https://atlasbi.live/blog/ai-vs-traditional-bi-2026): Choosing between engineer-driven dashboards and self-serve intelligence.
+- [How to Connect Google Sheets to an AI Chart Generator (2026 Guide)](https://atlasbi.live/blog/how-to-connect-google-sheets-to-ai-charts): Live, auto-updating charts directly from your spreadsheets.
+- [Best Dashboard Tools for Startups in 2026 (Ranked by Speed and Cost)](https://atlasbi.live/blog/best-dashboard-tools-startups-2026): The ultimate analytics guide for pre-seed through Series A teams.
+- [How to Create an Investor Dashboard That Gets Read (2026 Guide)](https://atlasbi.live/blog/how-to-create-investor-dashboard): Automate your founder reporting with live metrics investors care about.
+- [What Is Natural Language Data Analysis? Complete Guide for 2026](https://atlasbi.live/blog/what-is-natural-language-data-analysis): How AI converts plain English questions into business insights.
+- [AI Data Visualization: The Future of Executive Decision Making](https://atlasbi.live/blog/ai-data-visualization-executive-decision-making): How AI-driven visualization is redefining executive strategy and decision-making speed.
+- [The Rise of Autonomous Business Intelligence: Beyond the Dashboard](https://atlasbi.live/blog/autonomous-business-intelligence-guide): Why static dashboards are dead and what comes next.
+- [Tableau Alternatives for Modern Teams: Why 2026 is the Year of Self-Serve](https://atlasbi.live/blog/tableau-alternatives-2026): Breaking the analyst bottleneck with speed-of-thought tools.
+- [Prompt Engineering for Data Analytics: 10 Frameworks for Precision](https://atlasbi.live/blog/prompt-engineering-data-analytics): How to structure your data questions for maximum accuracy.

@@ -1,0 +1,45 @@
+User-agent: *
+Allow: /
+
+# Bing Crawlers — explicitly allow
+User-agent: bingbot
+Allow: /
+
+User-agent: msnbot
+Allow: /
+
+# AI Crawlers — explicitly allow
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://atlasbi.live/sitemap.xml
+Sitemap: https://atlasbi.live/feed.xml
+
+# AI Context Files
+# https://llmstxt.org/
+LLMsTxt: https://atlasbi.live/llms.txt
+LLMsFullTxt: https://atlasbi.live/llms-full.txt

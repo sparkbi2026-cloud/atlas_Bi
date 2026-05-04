@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #0f172a;
+  --primary: #4f46e5;
+  --primary-foreground: #ffffff;
+  --accent: #10b981;
+  --muted: #64748b;
+  --border: #e2e8f0;
+}
+
+@theme {
+  --font-serif: var(--font-serif);
+  --font-sans: var(--font-inter);
+}
+
+@layer base {
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+.serif-heading {
+  font-family: var(--font-serif);
+}
+
+.glass {
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.sn-reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: reveal 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes reveal {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
+
+/* ── PROMPT CONTENT SPACING FIX ── */
+.prompt-article h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin-top: 3.5rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.prompt-article p {
+  margin-bottom: 2rem;
+  line-height: 1.8;
+  color: #475569;
+}
+
+.prompt-article ul {
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+.prompt-article li {
+  margin-bottom: 1rem;
+  line-height: 1.8;
+  color: #475569;
+}
+
+.prompt-article strong {
+  font-weight: 700;
+  color: #0f172a;
+}

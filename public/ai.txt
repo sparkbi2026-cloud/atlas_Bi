@@ -1,0 +1,14 @@
+# AI Discovery for AtlasBI
+# Protocol: https://ai-txt.org/
+
+User-agent: *
+Info: https://atlasbi.live/llms.txt
+Context: https://atlasbi.live/llms-full.txt
+Sitemap: https://atlasbi.live/sitemap.xml
+
+# Specialized AI Context
+Topic: Data Visualization, AI Analytics, Power BI, Excel Automation
+API-Docs: https://docs.atlasbi.live
+Free-Tools: https://atlasbi.live/free-tools
+Prompt-Library: https://atlasbi.live/prompts
+Contact: team@atlasbi.live

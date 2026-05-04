@@ -1,0 +1,808 @@
+# AtlasBI — Full Documentation for AI assistants
+
+> This file provides detailed context about AtlasBI for AI assistants and LLMs.
+> AtlasBI is an autonomous business intelligence platform that transforms 
+> raw datasets into professional, presentation-ready visualizations using 
+> natural language and generative AI.
+
+## About AtlasBI
+
+AtlasBI allows you to go from a messy CSV or database connection to a 
+board-ready chart in under 15 seconds. Our engine automatically cleans 
+data, detects schema, and generates the best visualization for the story 
+you want to tell.
+
+### Core Capabilities
+- **Natural Language Querying**: Ask questions of your data in plain English (or any of the 6 supported languages).
+- **Autonomous Data Cleaning**: Automatic type detection, outlier handling, and schema mapping.
+- **Predictive Insights**: AI-generated narratives that explain the "why" behind the numbers.
+- **Enterprise Security**: AES-256 encryption, SOC2 compliance, and secure dashboard sharing.
+- **Multilingual Support**: Fully localized in English, German, French, Italian, Spanish, and Polish.
+
+### Pricing
+- **Free**: 10 visualizations/month, standard exports.
+- **Pro**: $19/month — Unlimited visualizations, custom branding, CSV imports.
+- **Team**: $49/month — Shared dashboards, database connections, advanced API.
+
+---
+
+## Free Analytics Command Center
+
+AtlasBI provides 20+ functional, no-signup-required tools for data professionals. These tools are designed to solve common Excel, CSV, and Power BI bottlenecks.
+
+### Featured Free Tools
+1. **[Free Excel to Chart Maker](https://atlasbi.live/free-tools/excel-to-chart)**: Convert .xlsx or .xls files into professional bar, line, and scatter charts instantly.
+2. **[Free AI Power BI DAX Helper](https://atlasbi.live/free-tools/dax-formula-generator)**: Generate complex measures, time-intelligence formulas, and calculated columns for Power BI.
+3. **[Free CSV to LLM Context](https://atlasbi.live/free-tools/csv-to-llm-json)**: Transforms raw CSV data into token-efficient JSON structures optimized for ChatGPT/Claude reasoning.
+4. **[Free AI Excel Formula Generator](https://atlasbi.live/free-tools/excel-formula-generator)**: Converts natural language requests into complex Excel/Google Sheets formulas (including VLOOKUP, INDEX/MATCH).
+5. **[Free SQL to Power Query M Converter](https://atlasbi.live/free-tools/sql-to-power-query-m)**: Bridges the gap between database queries and Power BI by generating M code for the Advanced Editor.
+6. **[Free CSV Data Cleaner](https://atlasbi.live/free-tools/csv-cleaner)**: Standardizes dates, removes nulls, and deduplicates records in-browser.
+
+---
+
+## AI Prompt Library
+
+A comprehensive repository of 50+ high-intent prompt frameworks designed to help teams extract maximum value from AI in a business context.
+
+### Popular Prompt Categories
+- **Financial Analytics**: Prompts for churn analysis, revenue forecasting, and unit economics.
+- **Marketing Strategy**: Frameworks for CAC/LTV modeling, campaign attribution, and sentiment analysis.
+- **Engineering & Product**: Prompts for sprint velocity tracking, error rate visualization, and feature adoption.
+- **HR & Operations**: Frameworks for employee turnover prediction and resource allocation.
+
+---
+
+### AI Data Visualization: The Future of Executive Decision Making
+URL: https://atlasbi.live/blog/ai-data-visualization-executive-decision-making
+Description: >-
+
+# AI Data Visualization: The Future of Executive Decision Making
+
+*In the modern boardroom, speed is the only sustainable competitive advantage. AI-powered data visualization is no longer a luxury — it is the infrastructure of decision-making.*
+
+
+
+## The Death of the Monthly Report
+
+For decades, executive decision-making followed a predictable, monthly cadence. The data team would spend three weeks cleaning data, one week building a deck, and the executive team would meet on the first Monday of the month to review a snapshot of the past.
+
+This "rearview mirror" approach is failing. In a world where supply chains shift in hours and consumer sentiment changes with a single tweet, a 30-day-old report is a liability.
+
+AI data visualization transforms reporting from a **static event** into a **dynamic conversation**.
+
+
+
+## The Executive "Command Center" of 2026
+
+The boardrooms of the future won't have static slide decks. They will have interactive, AI-orchestrated command centers. These environments will:
+- **Monitor anomalies in real-time:** Alerting the team to revenue drops or growth spikes as they occur.
+- **Run 'What-If' scenarios on the fly:** Visualizing the impact of strategic choices instantly.
+- **Summarize complex datasets into actionable bullets:** Using Natural Language Generation (NLG) to provide context.
+
+
+
+## Keep Reading
+
+- [Best AI Chart Generator Tools in 2026](/blog/best-ai-chart-generator-2026)
+- [The Rise of Autonomous Business Intelligence](/blog/autonomous-business-intelligence-guide)
+- [How to Create an Investor Dashboard That Gets Read](/blog/how-to-create-investor-dashboard)
+
+---
+
+### AI BI vs Traditional BI: Which is Right for Your Team in 2026?
+URL: https://atlasbi.live/blog/ai-vs-traditional-bi-2026
+Description: >-
+
+# AI BI vs Traditional BI: Which is Right for Your Team in 2026?
+
+*Traditional BI was built for data engineers. AI BI was built for the people who actually have the business questions. Here is how to choose.*
+
+
+
+## Introduction
+
+The business intelligence category has existed for 30 years. Tableau was founded in 2003. Business Objects launched in 1990. The fundamental workflow — connect a database, drag fields onto a canvas, publish a dashboard — has not changed in three decades.
+
+What has changed is everything else.
+
+The volume of data that business teams generate has grown 10x in five years. The speed at which decisions need to be made has compressed from weekly to hourly. The number of people who need data access has expanded from a small analyst team to every function in the organization.
+
+Traditional BI tools were built for a world where data was scarce and centralized. AI BI tools are built for a world where data is abundant and distributed.
+
+
+
+## The AI BI Model: How It Works
+
+In an AI BI implementation, the workflow is:
+
+1. A business user has a question: *"Which customer segments had the highest churn rate in Q1?"*
+2. They type the question into AtlasBI.
+3. The chart appears in 20 seconds.
+
+The "request and wait" model is replaced by a "question and answer" model. Every team member has direct access to data intelligence, without SQL knowledge or data engineering support.
+
+The consequence is not just faster answers. It is a fundamentally different relationship with data across the organization. When questions are free (in time and effort), more questions get asked. More experiments get run. More decisions get validated before commitment.
+
+
+
+## Where Traditional BI Still Wins
+
+It would be inaccurate to say AI BI is always the right choice. Traditional BI tools retain real advantages in specific scenarios:
+
+**Highly custom visualizations for large-scale distribution.** Tableau's publishing infrastructure is designed for organizations with thousands of dashboar...
+
+---
+
+### The Engineering Behind Autonomous Data Cleaning: Under the Hood
+URL: https://atlasbi.live/blog/autonomous-data-cleaning-engineering
+Description: >-
+
+# The Engineering Behind Autonomous Data Cleaning: Under the Hood
+
+*Building a system that can reliably fix messy data without human intervention is one of the hardest problems in software. Here is how AtlasBI’s engineering team solved it.*
+
+
+
+## The Hybrid Approach: Heuristics vs. LLMs
+
+Many modern tools try to use LLMs for everything. In data engineering, that's a mistake. LLMs are slow and expensive for simple tasks like date formatting.
+
+AtlasBI uses a **Tiered Logic Engine**:
+
+1. **Tier 1 (Heuristics):** Pattern matching for known formats (Dates, Currencies, Emails). Fast, efficient, and 100% predictable.
+2. **Tier 2 (Statistical Models):** Anomaly detection and outlier flagging using standard deviation and clustering.
+3. **Tier 3 (LLMs):** Semantic cleaning. For example, understanding that "NYC" and "Manhattan" refer to the same geographic entity in the context of a "Cities" column.
+
+
+
+## The Audit Trail Architecture
+
+Every cleaning action is recorded as a "Transformation Step." Think of it like Git for your data. You can "cherry-pick" which cleaning steps to apply and see a diff of the data at every stage. This ensures that the data team always has full control over what the AI is doing.
+
+---
+
+## Conclusion
+
+Autonomous data cleaning is the result of thousands of hours of fine-tuning the balance between speed and semantic intelligence. By offloading the busywork to our Tier 1 and 2 engines, we give our users the most accurate visualizations in the shortest possible time.
+
+**[View our open-source cleaning benchmarks on GitHub](https://github.com/atlasbi-ai/benchmarks)**
+
+---
+
+### What Is Autonomous Data Cleaning? The Complete Guide for 2026
+URL: https://atlasbi.live/blog/autonomous-data-cleaning-guide
+Description: >-
+
+# What Is Autonomous Data Cleaning? The Complete Guide for 2026
+
+*Data preparation accounts for 60-80% of a data analyst's time. Autonomous cleaning changes that by applying AI to the most repetitive, rule-based parts of the process — automatically and at scale.*
+
+
+
+## Why Data Cleaning is the Biggest Bottleneck in Analytics
+
+Ask any data analyst where their time goes, and the answer is consistent: cleaning data.
+
+The academic literature puts the figure at 60-80% of total analytics time spent on data preparation rather than analysis. The McKinsey Global Institute's 2025 data productivity report found that a typical analytics team at a mid-sized company spends 18 hours per week cleaning data that should take 3.
+
+The core problem is that data in the real world does not arrive clean. Every system exports differently:
+
+- **Salesforce** exports dates as `MM/DD/YYYY`, while your financial model uses `YYYY-MM-DD`.
+- **Stripe** records amounts in cents (`4999`) while QuickBooks records in dollars (`$49.99`).
+- **HubSpot** uses dropdown values (`"Enterprise"`, `"Enterprise Plan"`, `"ENTERPRISE"`) for the same category.
+- **Excel** encodes nulls as `N/A`, `NULL`, `0`, `""`, or just a blank cell depending on who built the sheet.
+
+Before you can visualize anything useful, you need to standardize all of this. Traditionally, that meant manual work. Autonomous cleaning means it happens automatically.
+
+
+
+## The Cleaning Audit Trail
+
+Every cleaning action AtlasBI applies is logged in a cleaning report that accompanies the dataset. The report shows:
+
+- Which columns were modified and why
+- How many rows were affected by each transformation
+- Which changes were automatic and which required user confirmation
+- The before/after value distribution for each modified column
+
+This audit trail is critical for teams working with regulated data (financial services, healthcare) where every data transformation must be documented and defensible.
+
+||
+| Date format normalization | 20–40 min | Inst...
+
+---
+
+### Best AI Chart Generator Tools in 2026 (Ranked & Compared)
+URL: https://atlasbi.live/blog/best-ai-chart-generator-2026
+Description: >-
+
+# Best AI Chart Generator Tools in 2026 (Ranked & Compared)
+
+*An honest comparison of the top AI chart generators in 2026, ranked by how accurately they convert natural language queries into professional visualizations — with pricing, strengths, and a clear recommendation for every team type.*
+
+
+
+## Introduction
+
+The bar for data visualization has fundamentally changed. In 2024, "good enough" meant a bar chart you could export to a presentation. In 2026, the expectation is an AI that understands your question, cleans your data, selects the right chart type, and renders a presentation-ready visual — in the time it takes to type one sentence.
+
+The shift is measurable. According to Gartner's 2026 BI market analysis, self-serve analytics adoption has grown 67% in two years, driven entirely by teams who cannot afford to wait for a data engineer every time they need a chart.
+
+This comparison ranks the top AI chart generators across five criteria: natural language accuracy, output quality, data source integrations, pricing transparency, and time-to-insight. The ranking is based on hands-on testing across real business datasets.
+
+
+
+## What is an AI Chart Generator?
+
+An AI chart generator is a tool that converts raw data — spreadsheets, database queries, CSVs, or live API feeds — into visual charts using artificial intelligence. The key distinction from traditional BI tools is the interface: instead of dragging fields onto a canvas or writing SQL, you describe what you want in plain English.
+
+"Show me monthly revenue by product line for the last quarter as a stacked bar chart" is a complete instruction. An AI chart generator parses the intent, identifies the correct fields in your dataset, selects the appropriate chart type if not specified, and renders the output.
+
+This matters because the bottleneck in business intelligence has never been the data. It has been the translation layer between the business question and the visualization. AI eliminates that layer.
+
+
+
+## What Da...
+
+---
+
+### Best Dashboard Tools for Startups in 2026 (Ranked by Speed and Cost)
+URL: https://atlasbi.live/blog/best-dashboard-tools-startups-2026
+Description: >-
+
+# Best Dashboard Tools for Startups in 2026 (Ranked by Speed and Cost)
+
+*The right dashboard tool for a startup is not the most powerful one. It is the one your team will actually use — fast to set up, affordable, and accessible to non-technical founders.*
+
+
+
+## What Startups Actually Need from a Dashboard Tool
+
+Enterprise BI requirements are irrelevant to a 10-person startup. You do not need:
+- Complex LOD expressions
+- 90+ data source connectors
+- Enterprise SSO governance
+- Custom certification programs
+
+You need:
+- Revenue, growth, and retention charts that update automatically
+- Investor-ready visualizations you can share with a link
+- A tool anyone on the team can use without training
+- Pricing that doesn't hurt at your current ARR
+
+With those constraints defined, the comparison becomes much simpler.
+
+
+
+## The Real Cost of Getting This Wrong
+
+The most expensive dashboard tool a startup can use is the one that never gets used.
+
+Tableau Creative at $75/user/month requires 2–3 days of training before a non-technical founder can build their first chart. Many startups buy the license, find the tool too complex, and default back to manual spreadsheets. The BI investment produces no return.
+
+AtlasBI's 18-second time-to-first-chart means the tool gets used from day one. When a dashboard tool is actually used, decisions get better. That is the real ROI of the right choice.
+
+
+
+## Conclusion
+
+The best dashboard tool for your startup is the one that gives your team data access without requiring a data engineer, training program, or enterprise budget.
+
+AtlasBI covers this from day one: connect your data sources in minutes, ask questions in plain English, share results with investors via a link. As your team grows, the tool scales with you.
+
+**[Start free at atlasbi.live](https://atlasbi.live) — no credit card required.**
+
+---
+
+### AtlasBI vs Tableau: Full Comparison for 2026
+URL: https://atlasbi.live/blog/atlasbi-vs-tableau-2026
+Description: >-
+
+# AtlasBI vs Tableau: Full Comparison for 2026
+
+*Which tool belongs in your data stack — the AI-first chart generator built for speed, or the enterprise BI platform built for customization? Here is the honest answer.*
+
+
+
+## The Core Difference
+
+Tableau was designed in 2003 for data engineers to build dashboards for other people to read. The interface assumes technical proficiency: calculated fields, LOD expressions, data blending, and a drag-and-drop canvas that requires training to use effectively.
+
+AtlasBI was designed in 2025 for the person who actually has the question. The interface is a text box. You type what you want. The AI builds the chart.
+
+This is not a minor UX difference. It is a fundamentally different theory about who should be able to do data analysis.
+
+||
+| **Interface** | Natural language chat | Drag-and-drop canvas |
+| **Time to first chart** | < 30 seconds | 30–120 minutes (setup) |
+| **SQL required?** | No | No (but recommended) |
+| **AI chart selection** | Automatic | Manual |
+| **Data cleaning** | Autonomous | Manual / Tableau Prep |
+| **Starting price** | $19/month | $75/user/month |
+| **Free tier** | Yes | No |
+| **Live database connections** | 40+ | 90+ |
+| **Collaboration** | Real-time comments | Dashboard sharing |
+| **Mobile** | Full | Tableau Mobile |
+| **Embedded charts** | Yes (white-label) | Yes (Server/Cloud) |
+| **Custom calculations** | Natural language | LOD expressions (complex) |
+
+
+
+## Ease of Use: The Real Test
+
+The most important question is not "which tool has more features?" It is "which tool can a marketing manager, a sales director, or a CFO actually use without training?"
+
+We tested both tools with a panel of 20 business professionals with no formal data training. The task: "Build a chart showing monthly revenue by product for the last 6 months."
+
+**In Tableau:**
+- Average time to complete: 47 minutes
+- Required steps: Connect data source, configure joins, drag Revenue to Columns, drag Date to Rows, configure date hie...
+
+---
+
+### How to Create Charts from CSV Files Automatically Using AI (2026 Guide)
+URL: https://atlasbi.live/blog/csv-to-chart-guide
+Description: >-
+
+# How to Create Charts from CSV Files Automatically Using AI (2026 Guide)
+
+*Turning a raw CSV into a clear, professional chart used to require cleaning the data, choosing the right chart type, and formatting for hours. AI eliminates all three steps. Here is exactly how it works in 2026.*
+
+
+
+## Why CSV-to-Chart Remains the Most Common Data Task
+
+Despite the growth of connected databases and live APIs, the CSV file remains the universal language of business data. A Salesforce export, a QuickBooks report, a Google Analytics download — they all end up as CSV files sitting in someone's downloads folder.
+
+The problem has never been getting the data. The problem is what happens next.
+
+The traditional path from CSV to chart involves:
+
+1. Opening the file in Excel or Google Sheets
+2. Scanning columns to understand the data structure
+3. Cleaning nulls, fixing date formats, removing duplicates
+4. Deciding which columns to plot against each other
+5. Inserting a chart and manually configuring axes, labels, and colors
+6. Exporting and reformatting for the presentation
+
+This process takes 30 to 90 minutes for a non-technical user. For a data analyst, it takes less — but it still pulls them away from higher-value work. Across a team running multiple analyses per week, the time cost compounds quickly.
+
+AI eliminates steps 2 through 6 entirely.
+
+
+
+## Step-by-Step: CSV to Chart in AtlasBI
+
+**Step 1: Upload your CSV**
+
+Drag and drop any CSV file into AtlasBI. Files up to 50MB are supported. For larger datasets, use a direct database connection.
+
+**Step 2: Review the detected schema**
+
+AtlasBI shows a summary of detected columns, data types, and a completeness report. Confirm that the AI has correctly identified date columns, currency columns, and category fields.
+
+**Step 3: Ask your question**
+
+Type what you want to see. Examples:
+- *"Show total orders by country for the last 6 months"*
+- *"Compare average deal size by sales rep as a bar chart"*
+- *"Plot the trend of new signups ove...
+
+---
+
+### Data Governance in the AI Era: Balancing Access and Security
+URL: https://atlasbi.live/blog/data-governance-ai-era
+Description: >-
+
+# Data Governance in the AI Era: Balancing Access and Security
+
+*The goal of governance isn't to say 'No.' It's to say 'Yes' safely.*
+
+
+
+## Conclusion
+
+Good governance isn't a barrier to speed; it's the foundation for it. When you know your data is secure, you can move faster with confidence.
+
+**[Read our Security Whitepaper at atlasbi.live/security](https://atlasbi.live/security)**
+
+---
+
+### Data Storytelling Best Practices for Executive Presentations
+URL: https://atlasbi.live/blog/data-storytelling-best-practices
+Description: >-
+
+# Data Storytelling Best Practices for Executive Presentations
+
+*An executive doesn't want to see 'data.' They want to see the 'truth' hidden inside the data. Here is how to present it.*
+
+
+
+## The Power of the Narrative
+
+AtlasBI's AI-generated insights help you "tell the story" by automatically drafting bullet points that explain the *why* behind the visual. Use these as a starting point for your presentation to ensure you aren't just reading numbers off a screen.
+
+---
+
+## Conclusion
+
+Data storytelling is the bridge between analysis and impact. Use AtlasBI to build the bridge faster, and use these best practices to make it stronger.
+
+**[Download our 'Executive Presentation Template' at atlasbi.live/templates](https://atlasbi.live/templates)**
+
+---
+
+### Data Visualization Ethics in the Age of Generative AI
+URL: https://atlasbi.live/blog/data-viz-ethics-ai
+Description: >-
+
+# Data Visualization Ethics in the Age of Generative AI
+
+*With great power comes great responsibility. As AI agents begin to choose how to represent our data, the ethical framework behind those choices becomes as important as the data itself.*
+
+
+
+## The New Ethical Frontier: Automated Storytelling
+
+Data visualization has always been a form of storytelling. By choosing a specific axis scale, a color palette, or a chart type, an analyst can influence how information is perceived. Generative AI accelerates this process, but it also removes the "human fingerprints" that once made bias easier to spot.
+
+In 2026, the question is no longer just "Is the data correct?" but "Is the representation fair?"
+
+
+
+## Managing "AI Hallucinations" in Analytics
+
+In a data context, a hallucination isn't just a made-up fact; it's a made-up correlation. An AI might suggest that "sunny days correlate with higher server downtime" based on a coincidental pattern in a small dataset.
+
+**How AtlasBI Prevents Hallucinated Insights:**
+- **Statistical Significance Thresholds:** AI-generated narratives are only generated when the underlying correlation meets a high p-value threshold.
+- **Reference to Raw Data:** Every insight must point to specific rows or aggregates that support the claim.
+- **Explicit Uncertainty:** If the data is messy or insufficient, AtlasBI says "I'm not sure" rather than forcing a conclusion.
+
+---
+
+## Conclusion
+
+Ethics in AI-driven BI is not a "feature"—it is the foundation of trust. As we move toward a world where AI agents orchestrate our data strategy, the systems that win will be the ones that are most transparent about their limitations and most rigorous about their integrity.
+
+**[Read our full Ethics & Transparency report at atlasbi.live/ethics](https://atlasbi.live/ethics)**
+
+---
+
+### Building a Data Culture: How to Democratize Insights in 2026
+URL: https://atlasbi.live/blog/democratizing-data-insights
+Description: >-
+
+# Building a Data Culture: How to Democratize Insights in 2026
+
+*A data-driven company isn't one with a huge data team. It's one where everyone—from HR to Product—can answer their own questions with confidence.*
+
+
+
+## 3 Pillars of Data Democratization
+
+### 1. Natural Language Interfaces
+If someone can ask a question in Slack, they can get a chart. By removing SQL as a requirement, you instantly 10x the number of people who can use data in their daily work.
+
+### 2. Verified Data Assets
+Trust is the currency of a data culture. Data teams use AtlasBI to create "Verified Datasets"—pre-cleaned, approved sources that anyone can query knowing the numbers are correct.
+
+### 3. Contextual Insights
+Raw charts are hard to read. AtlasBI's AI adds a narrative layer, explaining what the chart means in plain English. This bridges the "literacy gap" and ensures insights are understood, not just seen.
+
+---
+
+## Conclusion
+
+Democratizing data doesn't mean letting everyone see everything. It means giving everyone the tools to understand what they *should* see. When you empower your team with AtlasBI, you turn data from a burden into a superpower.
+
+**[Get our 'Data Culture Playbook' for 2026](https://atlasbi.live/playbook)**
+
+---
+
+### Embedded Analytics: Bringing Insights Directly into Your Workflow
+URL: https://atlasbi.live/blog/embedded-analytics-guide
+Description: >-
+
+# Embedded Analytics: Bringing Insights Directly into Your Workflow
+
+*Don't make your team go to a dashboard. Bring the dashboard to your team.*
+
+
+
+## Conclusion
+
+Embedded analytics turns data from a "destination" into a "utility." It ensures that every decision, no matter where it happens, is backed by the truth.
+
+**[Explore our API documentation at docs.atlasbi.live](https://docs.atlasbi.live)**
+
+---
+
+### The Role of Generative AI in Data Visualization: 2026 and Beyond
+URL: https://atlasbi.live/blog/generative-ai-data-visualization
+Description: >-
+
+# The Role of Generative AI in Data Visualization: 2026 and Beyond
+
+*We are moving from 'Data Analysis' to 'Data Conversation.' The chart is no longer the destination; it is a frame in a larger dialogue.*
+
+
+
+## The Human Element
+
+AI won't replace analysts; it will elevate them. By handling the 90% of work that is mechanical, it allows humans to focus on the 10% that is strategic.
+
+---
+
+## Conclusion
+
+The future of data is conversational, autonomous, and beautiful. At AtlasBI, we aren't just building a tool; we are building the future of how humans interact with information.
+
+**[Join the future at atlasbi.live](https://atlasbi.live)**
+
+---
+
+### How to Connect Google Sheets to an AI Chart Generator (2026 Guide)
+URL: https://atlasbi.live/blog/how-to-connect-google-sheets-to-ai-charts
+Description: >-
+
+# How to Connect Google Sheets to an AI Chart Generator (2026 Guide)
+
+*Stop exporting spreadsheets to create charts. Connect Google Sheets directly to AtlasBI and get AI-generated visualizations that update automatically every time your data changes.*
+
+
+
+## Why Live Google Sheets Connections Matter
+
+Most teams using Google Sheets for business data follow a painful cycle: data gets updated in the sheet, someone exports a CSV, uploads it to a chart tool, rebuilds the visualization, and shares it again. Every week. Every report.
+
+A live connection eliminates every step after the data update. When your sheet changes, the chart changes. The chart you shared with your team or your client is always current, without any action on your part.
+
+
+
+## Handling Common Google Sheets Formats
+
+**Summary rows and totals:** Google Sheets exports often include a "Total" row at the bottom. AtlasBI detects rows where a category column contains "Total" or "Grand Total" and excludes them from aggregations automatically.
+
+**Merged header rows:** If your sheet uses merged cells for a multi-row header, tell AtlasBI which row contains the actual column names during schema confirmation.
+
+**Formula-computed columns:** Columns that are computed by formulas (e.g., `=SUM(B2:B10)`) are treated as static values by AtlasBI. They read the current formula output, not the formula itself.
+
+**Date columns formatted as text:** Google Sheets sometimes stores dates as text strings if the column formatting is set to "Plain text." AtlasBI detects date-like strings and converts them automatically.
+
+
+
+## FAQs
+
+**Does AtlasBI have access to all my Google Sheets?**
+AtlasBI requests access to all sheets in the connected Google account for the purpose of letting you select which sheets to connect. It only reads data from sheets you explicitly add as data sources.
+
+**What happens if someone deletes a column from my connected sheet?**
+AtlasBI detects schema changes on the next refresh and flags charts that refe...
+
+---
+
+### How to Create an Investor Dashboard That Gets Read (2026 Guide)
+URL: https://atlasbi.live/blog/how-to-create-investor-dashboard
+Description: >-
+
+# How to Create an Investor Dashboard That Gets Read (2026 Guide)
+
+*An investor dashboard that requires manual updates every month is a dashboard that gets skipped. Here is how to build one that is always current, visually clear, and shareable with a single link.*
+
+
+
+## The 7 Charts Every Investor Dashboard Needs
+
+### 1. Monthly Recurring Revenue (MRR) — Line Chart
+
+Show MRR as a line chart over the last 12–24 months. Add annotations for major events: product launches, pricing changes, large customer wins.
+
+Why investors read this first: MRR is the primary health signal. Slope, consistency, and any inflection points are immediately visible in a line chart.
+
+### 2. MRR Growth Rate — Bar or Line Chart
+
+Month-over-month percentage growth. More informative than absolute MRR for early-stage companies where the absolute numbers are small but the growth rate is the story.
+
+### 3. Customer Count — Dual-Axis Line Chart
+
+Total customers alongside MRR on a dual axis shows whether revenue growth is driven by new customers or expansion revenue from existing customers. This distinction matters significantly for unit economics analysis.
+
+### 4. Churn Rate — Bar Chart
+
+Monthly churn percentage. Separate logo churn (percentage of customers lost) from revenue churn (percentage of MRR lost). Net revenue retention above 100% (expansion exceeds churn) is a specific signal investors look for.
+
+### 5. Burn Rate and Runway — Combined Chart
+
+Monthly cash burn as a bar chart with a projected runway line. Show the current cash position and the number of months of runway at the current burn rate. This is the chart investors check before any conversation about the next round.
+
+### 6. Customer Acquisition by Channel — Stacked Bar Chart
+
+New customers broken down by acquisition channel (paid, organic, referral, outbound). Shows where growth is coming from and whether acquisition is diversified or concentrated in one channel.
+
+### 7. ARR Waterfall — Waterfall Chart
+
+New ARR, expansion ARR, contrac...
+
+---
+
+### Predictive Analytics in 2026: Moving from Reactive to Proactive
+URL: https://atlasbi.live/blog/predictive-analytics-guide
+Description: >-
+
+# Predictive Analytics in 2026: Moving from Reactive to Proactive
+
+*Most BI tools show you what happened yesterday. In 2026, the winners are using AI to see what will happen tomorrow.*
+
+
+
+## 3 Use Cases for Proactive BI
+
+### 1. Dynamic Budget Reallocation
+If the AI predicts a 15% dip in organic traffic next month, it suggests reallocating budget to paid acquisition *today* to bridge the gap.
+
+### 2. Intelligent Inventory Management
+For E-commerce, predictive analytics identifies "breakout products" before they sell out, ensuring you restock based on momentum, not just past sales.
+
+### 3. Pre-emptive Churn Intervention
+Instead of seeing who churned last month, get a list of "High Risk" users who show behavioral patterns that precede a cancellation.
+
+---
+
+## Conclusion
+
+Predictive analytics isn't about having a crystal ball. It's about having a better map. By moving from reactive to proactive, you stop putting out fires and start building the future.
+
+**[Try our Revenue Forecaster free at atlasbi.live](https://atlasbi.live/forecasting)**
+
+---
+
+### How Real-Time Anomaly Detection Saves E-commerce Margins
+URL: https://atlasbi.live/blog/real-time-anomaly-detection
+Description: >-
+
+# How Real-Time Anomaly Detection Saves E-commerce Margins
+
+*In e-commerce, time isn't just money—it's margin. A broken checkout page for 30 minutes can ruin a daily target.*
+
+
+
+## 3 Critical Alerts Every Store Needs
+
+1. **Conversion Rate Floor:** Instant alert if the checkout-to-purchase ratio drops significantly below the 7-day average.
+2. **Average Order Value (AOV) Spike:** Can signal a pricing error or a successful but unintended discount stack.
+3. **Refund/Chargeback Clusters:** Early warning for fraud attacks or product quality issues.
+
+---
+
+## Conclusion
+
+You can't fix what you don't see. Real-time anomaly detection is your 24/7 data guard, ensuring that small glitches don't become margin-killing catastrophes.
+
+**[Set up your first Smart Alert at atlasbi.live/alerts](https://atlasbi.live/alerts)**
+
+---
+
+### How to Reduce Time-to-Insight (TTI) from Weeks to Seconds
+URL: https://atlasbi.live/blog/reducing-time-to-insight
+Description: >-
+
+# How to Reduce Time-to-Insight (TTI) from Weeks to Seconds
+
+*In a fast-moving market, an insight that arrives on Friday is worthless if the decision had to be made on Tuesday.*
+
+
+
+## How to Optimize for Speed
+
+- **Automate the Prep:** Use AtlasBI's autonomous cleaning to skip the Excel grind.
+- **Enable Self-Serve:** Give business teams NLDA access so they don't have to file tickets.
+- **Connect Live:** Stop using manual exports; connect directly to the source.
+
+---
+
+## Conclusion
+
+Speed is a competitive advantage. When your TTI is measured in seconds, your entire company moves faster than the competition.
+
+**[Benchmark your TTI at atlasbi.live/speed](https://atlasbi.live/speed)**
+
+---
+
+### How to Share a Live Dashboard with Clients Without Exposing Your Data
+URL: https://atlasbi.live/blog/share-dashboard-clients-securely
+Description: >-
+
+# How to Share a Live Dashboard with Clients Without Exposing Your Data
+
+*Sharing analytics with clients, investors, or stakeholders means walking a narrow line: they need to see the story the data tells, but not the raw database or internal metrics behind it. Here is how modern teams solve this in 2026.*
+
+
+
+## The Problem with Email Attachments and Exported PDFs
+
+The traditional approach to client reporting looks like this: export a chart from your BI tool, paste it into a PDF or PowerPoint, and email it once a month.
+
+This creates three compounding problems:
+
+**1. Stale data from the moment it leaves your inbox.** A chart shared as a PDF on the 1st of the month shows data frozen at that moment. By the 15th, it is two weeks out of date — but the client may still be referencing it in decisions.
+
+**2. No interactivity.** Clients cannot drill down, change the time range, or ask follow-up questions from a static image. They email you for a variation. You build it. You export it. The cycle repeats.
+
+**3. Confidentiality risk from over-sharing.** When you export "everything" into a report to save time, you often include internal metrics, cost data, or competitor analysis that was never meant for the client. Sharing happens fast; reviewing takes time, and mistakes happen.
+
+Live dashboard sharing with access controls solves all three.
+
+
+
+## What Data Clients Can and Cannot See
+
+This is the most important configuration decision when sharing dashboards externally.
+
+**What clients always see:**
+- The chart visualization (bars, lines, numbers)
+- The data labels and axis values you choose to display
+- The time range you configure
+- The filters and segments you expose
+
+**What clients never see:**
+- Your raw database connection credentials
+- Tables, columns, or fields not included in the chart
+- Other charts or workspaces you haven't shared
+- The natural language queries you used to build the chart
+- Internal annotations and comments in your workspace
+
+**What you control:**
+- Whe...
+
+---
+
+### What Is Natural Language Data Analysis? Complete Guide for 2026
+URL: https://atlasbi.live/blog/what-is-natural-language-data-analysis
+Description: >-
+
+# What Is Natural Language Data Analysis? Complete Guide for 2026
+
+*Natural language data analysis is the practice of querying business data using plain English instead of SQL, formulas, or drag-and-drop tools. It is the fastest-growing capability in business intelligence — and the most important for non-technical teams.*
+
+
+
+## How Natural Language Data Analysis Works
+
+When you type "Show me revenue by country for Q1, excluding orders under $100" into AtlasBI, a multi-stage process happens in under two seconds:
+
+### Stage 1: Intent Classification
+The system identifies the type of request: visualization, summary, comparison, trend, ranking, or filter. "Show me revenue by country" is a visualization with a grouping dimension. "Excluding orders under $100" is a filter condition.
+
+### Stage 2: Entity Extraction
+The system maps natural language terms to actual database columns and values:
+- "revenue" → `orders.total_amount`
+- "country" → `orders.shipping_country`
+- "Q1" → `order_date BETWEEN '2026-01-01' AND '2026-03-31'`
+- "under $100" → `total_amount < 100`
+
+### Stage 3: Query Construction
+The mapped entities are assembled into a structured query:
+```sql
+SELECT shipping_country, SUM(total_amount) as revenue
+FROM orders
+WHERE order_date BETWEEN '2026-01-01' AND '2026-03-31'
+  AND total_amount >= 100
+GROUP BY shipping_country
+ORDER BY revenue DESC
+```
+
+### Stage 4: Visualization Selection
+The query result shape (countries as categories, revenue as a numeric metric) maps to a horizontal bar chart. If you specified "pie chart" in the request, that overrides the automatic selection.
+
+### Stage 5: Rendering and Narrative
+The chart renders with appropriate formatting, axis labels, and a one-sentence AI-generated narrative: "United States led revenue in Q1 at $1.2M, representing 43% of total qualifying orders."
+
+
+
+## What NLDA Handles Less Well
+
+**Highly ambiguous column names:** If your database has columns named `v1`, `col_temp_3`, or `data_field` with no clear semantic mea...
+
+---
+
