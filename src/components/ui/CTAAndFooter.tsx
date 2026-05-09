@@ -100,7 +100,7 @@ function InteractiveDottedGrid() {
   );
 }
 
-export default function CTAAndFooter() {
+export default function CTAAndFooter({ dictionary }: { dictionary: any }) {
   return (
     <div className="bg-[#0B0D14] font-sans text-white">
       {/* ── CTA SECTION ── */}
@@ -113,12 +113,11 @@ export default function CTAAndFooter() {
         <div className="container mx-auto px-6 relative z-10 text-center">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/5 backdrop-blur-md border border-white/10 text-blue-400 text-[10px] font-black uppercase tracking-widest mb-8">
             <span className="w-1.5 h-1.5 rounded-full bg-blue-500 animate-pulse" />
-            Start for free today
+            {dictionary.navbar.get_started}
           </div>
 
           <h2 className="serif-heading text-5xl md:text-7xl text-white mb-8 leading-tight">
-            Stop visualizing <br className="hidden md:block" />
-            your data blind.
+            {dictionary.footer.cta_title}
           </h2>
 
           <p className="text-slate-400 text-lg md:text-xl max-w-2xl mx-auto mb-12 leading-relaxed">
@@ -128,7 +127,7 @@ export default function CTAAndFooter() {
 
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 mb-10">
             <button className="w-full md:w-72 bg-[#F2C94C] text-black px-8 py-4 rounded-full font-bold flex items-center justify-center gap-2 hover:bg-[#e6bf41] transition-all active:scale-95 group shadow-[0_20px_40px_-10px_rgba(242,201,76,0.3)]">
-              Start Visualizing Free <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+              {dictionary.footer.cta_button} <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </button>
             <button className="w-full md:w-64 px-8 py-4 rounded-full font-bold flex items-center justify-center gap-2 border border-slate-700 bg-slate-900/50 hover:bg-slate-800 transition-all active:scale-95">
               Watch Demo

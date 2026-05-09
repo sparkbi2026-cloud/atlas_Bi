@@ -19,8 +19,12 @@ export interface BlogPost {
 }
 
 export function getAllPosts(locale: string = 'en'): BlogPost[] {
-  const localeDir = path.join(blogDirectory, locale);
-  if (!fs.existsSync(localeDir)) return [];
+  let localeDir = path.join(blogDirectory, locale);
+  
+  // Fallback to English if directory doesn't exist or is empty
+  if (!fs.existsSync(localeDir) || fs.readdirSync(localeDir).filter(f => f.endsWith('.md')).length === 0) {
+    localeDir = path.join(blogDirectory, 'en');
+  }
 
   const fileNames = fs.readdirSync(localeDir);
   const allPostsData = fileNames
@@ -43,8 +47,15 @@ export function getAllPosts(locale: string = 'en'): BlogPost[] {
 
 export function getPostBySlug(slug: string, locale: string = 'en'): BlogPost | null {
   try {
-    const localeDir = path.join(blogDirectory, locale);
-    const fullPath = path.join(localeDir, `${slug}.md`);
+    let localeDir = path.join(blogDirectory, locale);
+    let fullPath = path.join(localeDir, `${slug}.md`);
+    
+    // Fallback to English if the specific post doesn't exist in this locale
+    if (!fs.existsSync(fullPath)) {
+      localeDir = path.join(blogDirectory, 'en');
+      fullPath = path.join(localeDir, `${slug}.md`);
+    }
+    
     if (!fs.existsSync(fullPath)) return null;
 
     const fileContents = fs.readFileSync(fullPath, 'utf8');

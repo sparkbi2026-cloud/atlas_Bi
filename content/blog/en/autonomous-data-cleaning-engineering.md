@@ -1,5 +1,5 @@
 ---
-heroImage: 'https://images.unsplash.com/photo-1551288049-bbbda536639a?q=80&w=1200&auto=format&fit=crop'
+heroImage: 'https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1200&auto=format&fit=crop'
 title: 'Autonomous Data Cleaning for Engineering Teams: Architecture, Algorithms, and Production Patterns'
 description: >-
   A deep-dive into the engineering architecture behind autonomous data cleaning.

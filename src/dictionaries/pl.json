@@ -1,0 +1,76 @@
+{
+  "hero": {
+    "badge": "Analiza danych na nowo",
+    "title_part1": "Profesjonalne wykresy.",
+    "title_italic": "W kilka sekund.",
+    "description": "Przestań zmagać się ze skomplikowanymi narzędziami BI. AtlasBI błyskawicznie zmienia surowe dane w oszałamiające wizualizacje gotowe do prezentacji. Najszybszy sposób na dzielenie się spostrzeżeniami i podejmowanie decyzji opartych na danych w Twoim zespole.",
+    "button_primary": "Zacznij za darmo",
+    "button_secondary": "Obejrzyj demo",
+    "trust": "Ponad 5000 zespołów ufa AtlasBI",
+    "rating": "4.9/5 na G2"
+  },
+  "features": {
+    "badge": "Stworzone dla nowoczesnych procesów pracy z danymi",
+    "description": "Wszystko, czego potrzebujesz, aby w kilka sekund zamienić surowe dane w profesjonalne spostrzeżenia."
+  },
+  "teams": {
+    "title": "Stworzone dla każdego zespołu i przepływu pracy",
+    "description": "AtlasBI pozwala każdemu — od startupów po korporacje — natychmiast znajdować spostrzeżenia w swoich danych.",
+    "by_industry": "Według branży",
+    "by_team": "Według zespołu",
+    "by_size": "Według rozmiaru"
+  },
+  "comparison": {
+    "title": "Dlaczego AtlasBI?",
+    "description": "Tradycyjne narzędzia BI zostały zbudowane dla analityków danych. AtlasBI jest zbudowany dla całego zespołu.",
+    "traditional_title": "Tradycyjne narzędzia",
+    "traditional_subtitle": "Power BI, Tableau, Excel",
+    "atlas_title": "Inteligencja AtlasBI",
+    "atlas_subtitle": "Zasilane przez autonomiczną sztuczną inteligencję",
+    "winner": "Zwycięzca",
+    "traditional_features": [
+      { "title": "Stroma krzywa uczenia się", "desc": "Wymaga szkolenia technicznego i ręcznej konfiguracji każdego pulpitu nawigacyjnego." },
+      { "title": "Odizolowane przygotowanie danych", "desc": "Dane muszą być ręcznie czyszczone i strukturyzowane przed wizualizacją." },
+      { "title": "Statyczne raporty", "desc": "Pulpity nawigacyjne często wymagają ręcznego odświeżania i nie współpracują w czasie rzeczywistym." },
+      { "title": "Wysoka zależność od analityków", "desc": "Zespoły czekają dniami, aż analitycy zbudują lub zaktualizują konkretne widoki." },
+      { "title": "Generyczna estetyka projektu", "desc": "Standardowe wykresy, które wymagają dodatkowych narzędzi do uzyskania jakości gotowej do prezentacji." },
+      { "title": "Rozproszone udostępnianie plików", "desc": "Udostępnianie wymaga eksportowania plików PDF lub przesyłania dużych, statycznych plików." }
+    ],
+    "atlas_features": [
+      { "title": "Zerowa krzywa uczenia się", "desc": "Twórz profesjonalne wykresy natychmiast za pomocą poleceń w języku naturalnym." },
+      { "title": "Autonomiczne przygotowanie danych", "desc": "Sztuczna inteligencja automatycznie podsumowuje, czyści i strukturyzuje zestawy danych." },
+      { "title": "Współpraca na żywo", "desc": "Każdy pulpit nawigacyjny jest domyślnie aktywny i umożliwia współpracę całemu zespołowi." },
+      { "title": "Natychmiastowy wgląd w dane w trybie samoobsługowym", "desc": "Każdy może uzyskać odpowiedzi w kilka sekund bez czekania na zespół ds. danych." },
+      { "title": "Polerowanie wizualne klasy studyjnej", "desc": "Estetyka gotowa do prezentacji prosto z pudełka, bez konieczności dodatkowej pracy projektowej." },
+      { "title": "Linki do współpracy w czasie rzeczywistym", "desc": "Udostępniaj aktywne, interaktywne linki, które pozostają aktualne wraz ze zmianą danych." }
+    ]
+  },
+  "video": {
+    "title_part1": "Jeden obszar roboczy dla danych,",
+    "title_part2": "inteligencji i storytellingu",
+    "description": "AtlasBI łączy wszystko, czego potrzebują zespoły danych. Połącz swoje źródła danych. Twórz i udostępniaj profesjonalne wykresy swojemu zespołowi. Kontroluj dokładność zestawów danych. Generuj nowe spostrzeżenia za pomocą czatu AI. Wszystko w jednym czystym, szybkim obszarze roboczym."
+  },
+  "pricing": {
+    "title": "Prosty, przejrzysty cennik",
+    "description": "Zacznij za darmo i skaluj swoje wizualizacje wraz ze wzrostem danych. Brak ukrytych opłat.",
+    "monthly": "Miesięcznie",
+    "yearly": "Rocznie",
+    "save": "Oszczędź 40%",
+    "annual_billing": "Rozliczenie roczne",
+    "hobby_features": ["Do 3 podstawowych pulpitów", "Standardowe przesyłanie plików CSV", "Wsparcie społeczności", "Podstawowe wizualizacje", "7-dniowe przechowywanie danych"],
+    "pro_features": ["Nieograniczone pulpity nawigacyjne", "Połączenia z bazami danych na żywo", "Wgląd AI i generowanie wykresów", "Własna domena i White-labeling", "Udostępnianie pulpitów i śledzenie", "Priorytetowe wsparcie e-mail"],
+    "enterprise_features": ["Dedykowany opiekun konta", "Uwierzytelnianie SSO i SAML", "Opcje wdrożenia lokalnego", "Niestandardowe szkolenie modeli AI", "Wsparcie telefoniczne 24/7", "Gwarancje SLA"]
+  },
+  "footer": {
+    "cta_title": "Gotowy na transformację swoich danych?",
+    "cta_button": "Zacznij za darmo"
+  },
+  "navbar": {
+    "features": "Funkcje",
+    "pricing": "Cennik",
+    "prompts": "Biblioteka Promptów",
+    "tools": "Darmowe Narzędzia",
+    "blog": "Blog",
+    "get_started": "Zacznij teraz"
+  }
+}

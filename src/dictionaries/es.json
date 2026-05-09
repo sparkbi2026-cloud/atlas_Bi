@@ -1,0 +1,76 @@
+{
+  "hero": {
+    "badge": "Análisis de datos reinventado",
+    "title_part1": "Gráficos profesionales.",
+    "title_italic": "Creados en segundos.",
+    "description": "Deja de luchar con herramientas de BI complejas. AtlasBI convierte instantáneamente tus datos brutos en visualizaciones impresionantes listas para la junta directiva. La forma más rápida de compartir conocimientos y tomar decisiones basadas en datos con tu equipo.",
+    "button_primary": "Empieza gratis",
+    "button_secondary": "Ver demo",
+    "trust": "Más de 5,000 equipos confían en AtlasBI",
+    "rating": "4.9/5 en G2"
+  },
+  "features": {
+    "badge": "Creado para los flujos de trabajo de datos modernos",
+    "description": "Todo lo que necesitas para convertir datos brutos en conocimientos profesionales en segundos."
+  },
+  "teams": {
+    "title": "Creado para cada equipo y flujo de trabajo",
+    "description": "AtlasBI permite a todos, desde startups hasta empresas, encontrar información en sus datos al instante.",
+    "by_industry": "Por industria",
+    "by_team": "Por equipo",
+    "by_size": "Por tamaño"
+  },
+  "comparison": {
+    "title": "¿Por qué AtlasBI?",
+    "description": "Las herramientas de BI tradicionales fueron creadas para analistas de datos. AtlasBI está creado para todo el equipo.",
+    "traditional_title": "Herramientas tradicionales",
+    "traditional_subtitle": "Power BI, Tableau, Excel",
+    "atlas_title": "Inteligencia AtlasBI",
+    "atlas_subtitle": "Impulsado por IA autónoma",
+    "winner": "El ganador",
+    "traditional_features": [
+      { "title": "Curva de aprendizaje pronunciada", "desc": "Requiere formación técnica y configuración manual para cada panel." },
+      { "title": "Preparación de datos aislada", "desc": "Los datos deben limpiarse y estructurarse manualmente antes de la visualización." },
+      { "title": "Informes estáticos", "desc": "Los paneles a menudo requieren actualizaciones manuales y no son colaborativos en vivo." },
+      { "title": "Alta dependencia de analistas", "desc": "Los equipos esperan días para que los analistas creen o actualicen vistas específicas." },
+      { "title": "Estética de diseño genérica", "desc": "Gráficos estándar que requieren herramientas adicionales para una calidad lista para presentaciones." },
+      { "title": "Intercambio de archivos fragmentado", "desc": "El intercambio requiere exportar PDF o enviar archivos estáticos grandes." }
+    ],
+    "atlas_features": [
+      { "title": "Curva de aprendizaje cero", "desc": "Crea gráficos profesionales al instante usando comandos en lenguaje natural." },
+      { "title": "Preparación de datos autónoma", "desc": "La IA resume, limpia y estructura automáticamente tus conjuntos de datos." },
+      { "title": "Colaboración en vivo", "desc": "Cada panel es en vivo y colaborativo por defecto para todo tu equipo." },
+      { "title": "Información instantánea de autoservicio", "desc": "Cualquiera puede obtener respuestas en segundos sin esperar a un equipo de datos." },
+      { "title": "Acabado visual de calidad de estudio", "desc": "Estética lista para presentaciones de inmediato, sin necesidad de trabajo de diseño adicional." },
+      { "title": "Enlaces colaborativos en tiempo real", "desc": "Comparte enlaces interactivos en vivo que se mantienen actualizados a medida que cambian tus datos." }
+    ]
+  },
+  "pricing": {
+    "title": "Precios simples y transparentes",
+    "description": "Empieza gratis y escala tus visualizaciones a medida que tus datos crezcan. Sin cargos ocultos.",
+    "monthly": "Mensual",
+    "yearly": "Anual",
+    "save": "Ahorra un 40%",
+    "annual_billing": "Facturación anual",
+    "hobby_features": ["Hasta 3 paneles básicos", "Cargas CSV estándar", "Soporte de la comunidad", "Visualizaciones básicas", "Retención de datos por 7 días"],
+    "pro_features": ["Paneles ilimitados", "Conexiones a bases de datos en vivo", "Información de IA y generación de gráficos", "Dominio personalizado y White-labeling", "Uso compartido y seguimiento de paneles", "Soporte por correo electrónico prioritario"],
+    "enterprise_features": ["Gerente de cuenta dedicado", "Autenticación SSO y SAML", "Opciones de implementación on-premise", "Entrenamiento de modelos de IA personalizados", "Soporte telefónico 24/7", "Garantías SLA"]
+  },
+  "footer": {
+    "cta_title": "¿Listo para transformar tus datos?",
+    "cta_button": "Empieza gratis"
+  },
+  "video": {
+    "title_part1": "Un espacio de trabajo para datos,",
+    "title_part2": "inteligencia y storytelling",
+    "description": "AtlasBI reúne todo lo que los equipos de datos necesitan. Conecta tus fuentes de datos. Crea y comparte gráficos profesionales con tu equipo. Audita conjuntos de datos para mayor precisión. Genera nuevas perspectivas con el chat de IA. Todo en un espacio de trabajo limpio y rápido."
+  },
+  "navbar": {
+    "features": "Características",
+    "pricing": "Precios",
+    "prompts": "Biblioteca de Prompts",
+    "tools": "Herramientas Gratuitas",
+    "blog": "Blog",
+    "get_started": "Empezar"
+  }
+}

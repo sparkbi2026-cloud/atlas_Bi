@@ -1,5 +1,5 @@
 ---
-heroImage: 'https://images.unsplash.com/photo-1543286386-713bdd548da4?q=80&w=1200&auto=format&fit=crop'
+heroImage: 'https://images.unsplash.com/photo-1551836022-d5d88e9218df?q=80&w=1200&auto=format&fit=crop'
 title: 'AI Data Visualization for Executive Decision Making: How C-Suite Leaders Use Real-Time Analytics to Win in 2026'
 description: >-
   AI-powered data visualization is transforming how CEOs, CFOs, and COOs make

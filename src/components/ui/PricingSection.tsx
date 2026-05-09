@@ -100,7 +100,7 @@ function InteractiveDottedGrid() {
   );
 }
 
-export default function PricingSection() {
+export default function PricingSection({ dictionary }: { dictionary: any }) {
   const [isYearly, setIsYearly] = useState(true);
 
   // Pricing Logic (applying 40% discount for yearly)
@@ -119,10 +119,10 @@ export default function PricingSection() {
       <div className="container mx-auto px-6 max-w-6xl relative z-10">
         <div className="text-center mb-12">
           <h2 className="serif-heading text-4xl md:text-5xl lg:text-6xl text-white mb-6 italic">
-            Simple, transparent pricing
+            {dictionary.pricing.title}
           </h2>
           <p className="text-lg text-slate-400 max-w-2xl mx-auto mb-10">
-            Start for free and scale your visualizations as your data grows. No hidden fees.
+            {dictionary.pricing.description}
           </p>
 
           {/* Pricing Switcher */}
@@ -132,13 +132,13 @@ export default function PricingSection() {
                   onClick={() => setIsYearly(false)}
                   className={`relative z-10 px-8 py-2.5 rounded-xl text-[13px] font-black transition-all duration-300 w-[110px] ${!isYearly ? 'text-white' : 'text-slate-500 hover:text-slate-400'}`}
                 >
-                   Monthly
+                   {dictionary.pricing.monthly}
                 </button>
                 <button 
                   onClick={() => setIsYearly(true)}
                   className={`relative z-10 px-8 py-2.5 rounded-xl text-[13px] font-black transition-all duration-300 w-[110px] ${isYearly ? 'text-white' : 'text-slate-500 hover:text-slate-400'}`}
                 >
-                   Yearly
+                   {dictionary.pricing.yearly}
                 </button>
                 
                 {/* Switcher Indicator */}
@@ -149,9 +149,9 @@ export default function PricingSection() {
              
              {/* Discount Badge */}
              <div className="flex items-center gap-2.5 px-4 py-1.5 bg-blue-500/10 rounded-full border border-blue-500/20 shadow-[0_0_20px_rgba(59,130,246,0.1)]">
-                <span className="text-[10px] font-black uppercase tracking-[0.1em] text-blue-400">Save 40%</span>
+                <span className="text-[10px] font-black uppercase tracking-[0.1em] text-blue-400">{dictionary.pricing.save}</span>
                 <div className="w-1 h-1 rounded-full bg-blue-500/40" />
-                <span className="text-[10px] font-bold text-slate-400 uppercase tracking-[0.05em]">Annual billing</span>
+                <span className="text-[10px] font-bold text-slate-400 uppercase tracking-[0.05em]">{dictionary.pricing.annual_billing}</span>
              </div>
           </div>
         </div>
@@ -180,7 +180,7 @@ export default function PricingSection() {
 
              <div className="space-y-4">
                 <div className="text-xs font-bold uppercase tracking-wider text-slate-400 mb-4">Includes</div>
-                {['Up to 3 basic dashboards', 'Standard CSV uploads', 'Community support', 'Basic visualizations', '7-day data retention'].map((feature, i) => (
+                {dictionary.pricing.hobby_features.map((feature: string, i: number) => (
                    <div key={i} className="flex items-start gap-3 text-sm text-slate-300">
                       <div className="mt-0.5 w-4 h-4 rounded-full bg-slate-800 flex items-center justify-center border border-slate-700">
                          <Check className="w-2.5 h-2.5 text-slate-400" />
@@ -223,7 +223,7 @@ export default function PricingSection() {
 
              <div className="space-y-4">
                 <div className="text-xs font-bold uppercase tracking-wider text-slate-400 mb-4">Everything in Hobby, plus</div>
-                {['Unlimited dashboards', 'Live database connections', 'AI Insights & Chart generation', 'Custom domain & White-labeling', 'Dashboard sharing & Tracking', 'Priority email support'].map((feature, i) => (
+                {dictionary.pricing.pro_features.map((feature: string, i: number) => (
                    <div key={i} className="flex items-start gap-3 text-sm text-slate-200">
                       <div className="mt-0.5 w-4 h-4 rounded-full bg-blue-500/20 flex items-center justify-center border border-blue-500/40">
                          <Check className="w-2.5 h-2.5 text-blue-400" />
@@ -255,7 +255,7 @@ export default function PricingSection() {
 
              <div className="space-y-4">
                 <div className="text-xs font-bold uppercase tracking-wider text-slate-400 mb-4">Everything in Pro, plus</div>
-                {['Dedicated account manager', 'SSO & SAML authentication', 'On-premise deployment options', 'Custom AI model training', '24/7 phone support', 'SLA guarantees'].map((feature, i) => (
+                {dictionary.pricing.enterprise_features.map((feature: string, i: number) => (
                    <div key={i} className="flex items-start gap-3 text-sm text-slate-300">
                       <div className="mt-0.5 w-4 h-4 rounded-full bg-slate-800 flex items-center justify-center border border-slate-700">
                          <Check className="w-2.5 h-2.5 text-slate-400" />

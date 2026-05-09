@@ -39,7 +39,7 @@ const sizes = [
   { icon: Globe, title: "Enterprise", desc: "Scale to thousands with security. Maintain visual consistency and data governance across global teams effortlessly." },
 ];
 
-export default function TeamsSection() {
+export default function TeamsSection({ dictionary }: { dictionary: any }) {
   return (
     <section id="solutions" className="py-24 bg-white relative overflow-hidden font-sans">
       <div className="absolute inset-0 z-0 pointer-events-none opacity-80">
@@ -49,10 +49,10 @@ export default function TeamsSection() {
       <div className="container mx-auto px-6 max-w-7xl relative z-10">
         <div className="text-center mb-24">
           <h2 className="serif-heading text-4xl md:text-6xl text-slate-900 mb-6 italic">
-            Built for every team and workflow
+            {dictionary.teams.title}
           </h2>
           <p className="text-lg text-slate-500 max-w-2xl mx-auto">
-            AtlasBI empowers everyone—from startups to enterprises—to find insights in their data instantly.
+            {dictionary.teams.description}
           </p>
         </div>
 
@@ -61,10 +61,10 @@ export default function TeamsSection() {
           
           {/* By Industry */}
           <div>
-            <h4 className="text-[10px] font-black uppercase tracking-[0.25em] text-slate-400 mb-12 text-center">By Industry</h4>
+            <h4 className="text-[10px] font-black uppercase tracking-[0.25em] text-slate-400 mb-12 text-center">{dictionary.teams.by_industry}</h4>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
               {industries.map((item) => (
-                <div key={item.title} className="p-8 rounded-[32px] bg-white/70 backdrop-blur-sm border border-slate-100 shadow-[0_15px_30px_-10px_rgba(0,0,0,0.05)] hover:shadow-[0_25px_50px_-12px_rgba(0,0,0,0.08)] transition-all duration-500 group flex flex-col items-start text-left">
+                <div key={item.title} className="p-8 rounded-[32px] bg-white/70 backdrop-blur-sm border border-slate-100 shadow-[0_15px_30px_-10px_rgba(0,0,0,0.05)] hover:shadow-[0_25px_50px_-12_rgba(0,0,0,0.08)] transition-all duration-500 group flex flex-col items-start text-left">
                   <div className="w-12 h-12 rounded-xl bg-slate-50 flex items-center justify-center mb-6 border border-slate-100 group-hover:bg-slate-900 group-hover:text-white transition-all duration-500">
                     <item.icon className="w-5 h-5" />
                   </div>
@@ -88,10 +88,10 @@ export default function TeamsSection() {
 
           {/* By Team */}
           <div>
-            <h4 className="text-[10px] font-black uppercase tracking-[0.25em] text-slate-400 mb-12 text-center">By Team</h4>
+            <h4 className="text-[10px] font-black uppercase tracking-[0.25em] text-slate-400 mb-12 text-center">{dictionary.teams.by_team}</h4>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
               {teams.map((item) => (
-                <div key={item.title} className="p-8 rounded-[32px] bg-white/70 backdrop-blur-sm border border-slate-100 shadow-[0_15px_30px_-10px_rgba(0,0,0,0.05)] hover:shadow-[0_25px_50px_-12px_rgba(0,0,0,0.08)] transition-all duration-500 group flex flex-col items-start text-left">
+                <div key={item.title} className="p-8 rounded-[32px] bg-white/70 backdrop-blur-sm border border-slate-100 shadow-[0_15px_30px_-10px_rgba(0,0,0,0.05)] hover:shadow-[0_25px_50px_-12_rgba(0,0,0,0.08)] transition-all duration-500 group flex flex-col items-start text-left">
                   <div className="w-12 h-12 rounded-xl bg-slate-50 flex items-center justify-center mb-6 border border-slate-100 group-hover:bg-slate-900 group-hover:text-white transition-all duration-500">
                     <item.icon className="w-5 h-5" />
                   </div>
@@ -115,10 +115,10 @@ export default function TeamsSection() {
 
           {/* By Size */}
           <div>
-            <h4 className="text-[10px] font-black uppercase tracking-[0.25em] text-slate-400 mb-12 text-center">By Size</h4>
+            <h4 className="text-[10px] font-black uppercase tracking-[0.25em] text-slate-400 mb-12 text-center">{dictionary.teams.by_size}</h4>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
               {sizes.map((item) => (
-                <div key={item.title} className="p-8 rounded-[32px] bg-white/70 backdrop-blur-sm border border-slate-100 shadow-[0_15px_30px_-10px_rgba(0,0,0,0.05)] hover:shadow-[0_25px_50px_-12px_rgba(0,0,0,0.08)] transition-all duration-500 group flex flex-col items-start text-left">
+                <div key={item.title} className="p-8 rounded-[32px] bg-white/70 backdrop-blur-sm border border-slate-100 shadow-[0_15px_30px_-10px_rgba(0,0,0,0.05)] hover:shadow-[0_25px_50px_-12_rgba(0,0,0,0.08)] transition-all duration-500 group flex flex-col items-start text-left">
                   <div className="w-12 h-12 rounded-xl bg-slate-50 flex items-center justify-center mb-6 border border-slate-100 group-hover:bg-slate-900 group-hover:text-white transition-all duration-500">
                     <item.icon className="w-5 h-5" />
                   </div>

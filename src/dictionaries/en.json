@@ -1,0 +1,76 @@
+{
+  "hero": {
+    "badge": "Data Analysis Reimagined",
+    "title_part1": "Professional charts.",
+    "title_italic": "Built in seconds.",
+    "description": "Stop wrestling with complex BI tools. AtlasBI turns raw data into stunning, board-ready visualizations instantly. The fastest way to share insights and make data-driven decisions with your team.",
+    "button_primary": "Start Visualizing Free",
+    "button_secondary": "Watch Demo",
+    "trust": "5,000+ teams trust AtlasBI",
+    "rating": "4.9/5 on G2"
+  },
+  "features": {
+    "badge": "Built for modern data workflows",
+    "description": "Everything you need to turn raw data into professional insights in seconds."
+  },
+  "teams": {
+    "title": "Built for every team and workflow",
+    "description": "AtlasBI empowers everyone—from startups to enterprises—to find insights in their data instantly.",
+    "by_industry": "By Industry",
+    "by_team": "By Team",
+    "by_size": "By Size"
+  },
+  "comparison": {
+    "title": "Why AtlasBI?",
+    "description": "Traditional BI tools were built for data analysts. AtlasBI is built for the entire team.",
+    "traditional_title": "Traditional Tools",
+    "traditional_subtitle": "Power BI, Tableau, Excel",
+    "atlas_title": "AtlasBI Intelligence",
+    "atlas_subtitle": "Powered by Autonomous AI",
+    "winner": "The Winner",
+    "traditional_features": [
+      { "title": "Steep learning curve", "desc": "Requires technical training and manual setup for every dashboard." },
+      { "title": "Siloed data prep", "desc": "Data must be cleaned and structured manually before visualization." },
+      { "title": "Static reports", "desc": "Dashboards often require manual refreshes and aren't live-collaborative." },
+      { "title": "High analyst dependency", "desc": "Teams wait days for analysts to build or update specific views." },
+      { "title": "Generic design aesthetics", "desc": "Standard charts that require extra tools for presentation-ready quality." },
+      { "title": "Fragmented file sharing", "desc": "Sharing requires exporting PDFs or sending large, static files." }
+    ],
+    "atlas_features": [
+      { "title": "Zero learning curve", "desc": "Build professional charts instantly using natural language prompts." },
+      { "title": "Autonomous data prep", "desc": "AI automatically summarizes, cleans, and structures your datasets." },
+      { "title": "Live collaboration", "desc": "Every dashboard is live and collaborative by default for your entire team." },
+      { "title": "Instant self-serve insights", "desc": "Anyone can get answers in seconds without waiting for a data team." },
+      { "title": "Studio-grade visual polish", "desc": "Presentation-ready aesthetics out of the box, no extra design work needed." },
+      { "title": "Real-time collaborative links", "desc": "Share live, interactive links that stay updated as your data changes." }
+    ]
+  },
+  "video": {
+    "title_part1": "One workspace for data,",
+    "title_part2": "intelligence, and storytelling",
+    "description": "AtlasBI brings together everything data teams need. Connect your data sources. Build and share professional charts with your team. Audit datasets for accuracy. Generate new insights with AI chat. All in one clean, fast workspace."
+  },
+  "pricing": {
+    "title": "Simple, transparent pricing",
+    "description": "Start for free and scale your visualizations as your data grows. No hidden fees.",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "save": "Save 40%",
+    "annual_billing": "Annual billing",
+    "hobby_features": ["Up to 3 basic dashboards", "Standard CSV uploads", "Community support", "Basic visualizations", "7-day data retention"],
+    "pro_features": ["Unlimited dashboards", "Live database connections", "AI Insights & Chart generation", "Custom domain & White-labeling", "Dashboard sharing & Tracking", "Priority email support"],
+    "enterprise_features": ["Dedicated account manager", "SSO & SAML authentication", "On-premise deployment options", "Custom AI model training", "24/7 phone support", "SLA guarantees"]
+  },
+  "footer": {
+    "cta_title": "Ready to transform your data?",
+    "cta_button": "Get Started for Free"
+  },
+  "navbar": {
+    "features": "Features",
+    "pricing": "Pricing",
+    "prompts": "Prompt Library",
+    "tools": "Free Tools",
+    "blog": "Blog",
+    "get_started": "Get Started"
+  }
+}

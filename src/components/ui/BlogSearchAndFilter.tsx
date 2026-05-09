@@ -17,16 +17,37 @@ const languages = [
 export default function BlogSearchAndFilter({ allPosts }: { allPosts: BlogPost[] }) {
   const [searchQuery, setSearchQuery] = useState("");
   const [activeLang, setActiveLang] = useState("en");
+  const [currentPage, setCurrentPage] = useState(1);
+  const postsPerPage = 9;
 
   const filteredPosts = useMemo(() => {
     return allPosts.filter((post) => {
       const matchesSearch = post.title.toLowerCase().includes(searchQuery.toLowerCase()) || 
                             post.description.toLowerCase().includes(searchQuery.toLowerCase());
-      // In a real multi-lang setup, we'd filter by post language. 
-      // For now, we show English posts as they are the primary content.
       return matchesSearch;
     });
   }, [allPosts, searchQuery]);
+
+  // Pagination logic
+  const totalPosts = filteredPosts.length;
+  const totalPages = Math.ceil(totalPosts / postsPerPage);
+  const indexOfLastPost = currentPage * postsPerPage;
+  const indexOfFirstPost = indexOfLastPost - postsPerPage;
+  const currentPosts = filteredPosts.slice(indexOfFirstPost, indexOfLastPost);
+
+  const paginate = (pageNumber: number) => {
+    setCurrentPage(pageNumber);
+    // Scroll to articles section
+    const element = document.getElementById("articles");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  // Reset to page 1 when search query changes
+  React.useEffect(() => {
+    setCurrentPage(1);
+  }, [searchQuery]);
 
   return (
     <>
@@ -66,19 +87,22 @@ export default function BlogSearchAndFilter({ allPosts }: { allPosts: BlogPost[]
       {/* ── BLOG GRID ── */}
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-          {filteredPosts.length > 0 ? (
-            filteredPosts.map((post) => (
+          {currentPosts.length > 0 ? (
+            currentPosts.map((post) => (
               <Link
                 key={post.slug}
                 href={`/blog/${post.slug}`}
                 className="group flex flex-col bg-white rounded-[40px] border border-slate-100 shadow-sm hover:shadow-[0_40px_80px_-20px_rgba(0,0,0,0.1)] transition-all duration-700 overflow-hidden"
               >
                 {/* Real Cover Image */}
-                <div className="relative aspect-[16/10] overflow-hidden">
+                <div className="relative aspect-[16/10] overflow-hidden bg-slate-100">
                   <img 
-                    src={post.heroImage || "https://images.unsplash.com/photo-1551288049-bbbda536639a?q=80&w=800"} 
+                    src={post.heroImage || `https://images.unsplash.com/photo-1551288049-bbbda536639a?q=80&w=800`} 
                     alt={post.title}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                    onError={(e) => {
+                      (e.target as HTMLImageElement).src = "https://images.unsplash.com/photo-1551288560-19969488a381?q=80&w=800";
+                    }}
                   />
                   <div className="absolute top-6 left-6">
                     <span className="px-3 py-1 rounded-full bg-white/90 backdrop-blur-md text-[10px] font-black uppercase tracking-widest text-slate-900 shadow-sm">
@@ -122,6 +146,49 @@ export default function BlogSearchAndFilter({ allPosts }: { allPosts: BlogPost[]
               <p className="text-slate-400 text-lg">No articles found matching your search.</p>
             </div>
           )}
+        </div>
+
+        {/* ── PAGINATION & COUNT ── */}
+        <div className="mt-20 flex flex-col items-center gap-8">
+          {totalPages > 1 && (
+            <div className="flex items-center gap-2">
+              <button
+                onClick={() => paginate(Math.max(1, currentPage - 1))}
+                disabled={currentPage === 1}
+                className="p-3 rounded-full border border-slate-100 text-slate-600 hover:bg-slate-50 disabled:opacity-30 disabled:cursor-not-allowed transition-all"
+              >
+                <ArrowRight className="w-4 h-4 rotate-180" />
+              </button>
+              
+              <div className="flex items-center gap-1">
+                {Array.from({ length: totalPages }, (_, i) => i + 1).map((number) => (
+                  <button
+                    key={number}
+                    onClick={() => paginate(number)}
+                    className={`w-10 h-10 rounded-full text-sm font-bold transition-all ${
+                      currentPage === number
+                        ? "bg-slate-900 text-white shadow-lg"
+                        : "text-slate-400 hover:text-slate-900 hover:bg-slate-50"
+                    }`}
+                  >
+                    {number}
+                  </button>
+                ))}
+              </div>
+
+              <button
+                onClick={() => paginate(Math.min(totalPages, currentPage + 1))}
+                disabled={currentPage === totalPages}
+                className="p-3 rounded-full border border-slate-100 text-slate-600 hover:bg-slate-50 disabled:opacity-30 disabled:cursor-not-allowed transition-all"
+              >
+                <ArrowRight className="w-4 h-4" />
+              </button>
+            </div>
+          )}
+
+          <div className="text-[11px] font-black uppercase tracking-[0.2em] text-slate-300">
+            Showing {indexOfFirstPost + 1}-{Math.min(indexOfLastPost, totalPosts)} of {totalPosts} articles
+          </div>
         </div>
       </div>
     </>

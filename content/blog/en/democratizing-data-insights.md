@@ -1,5 +1,5 @@
 ---
-heroImage: 'https://images.unsplash.com/photo-1551288049-bbbda536639a?q=80&w=1200&auto=format&fit=crop'
+heroImage: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=1200&auto=format&fit=crop'
 title: 'Democratizing Data Insights: How to Give Every Employee the Power of a Data Analyst in 2026'
 description: >-
   Data democratization gives every employee access to data-driven insights

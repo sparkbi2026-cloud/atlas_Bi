@@ -6,61 +6,113 @@ import { getAllCompetitorSlugs } from "@/lib/competitors";
 import { getAllPromptSlugs } from "@/lib/prompts";
 
 const BASE_URL = "https://atlasbi.live";
+const LOCALES = ["en", "fr", "de", "it", "es", "pl"];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date().toISOString();
+  const entries: MetadataRoute.Sitemap = [];
 
-  // ── Core Pages ──
-  const corePages: MetadataRoute.Sitemap = [
-    { url: `${BASE_URL}`, lastModified: now, changeFrequency: "weekly", priority: 1.0 },
-    { url: `${BASE_URL}/blog`, lastModified: now, changeFrequency: "daily", priority: 0.9 },
-    { url: `${BASE_URL}/free-tools`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
-  ];
+  // Helper to generate alternates
+  const getAlternates = (path: string) => {
+    const languages: Record<string, string> = {};
+    LOCALES.forEach((l) => {
+      languages[l] = `${BASE_URL}/${l}${path}`;
+    });
+    return { languages };
+  };
 
-  // ── Free Tools (pSEO) ──
-  const toolPages: MetadataRoute.Sitemap = getAllToolSlugs().map((slug) => ({
-    url: `${BASE_URL}/free-tools/${slug}`,
-    lastModified: now,
-    changeFrequency: "monthly" as const,
-    priority: 0.8,
-  }));
+  LOCALES.forEach((locale) => {
+    // ── Core Pages ──
+    entries.push({
+      url: `${BASE_URL}/${locale}`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 1.0,
+      alternates: getAlternates(""),
+    });
 
-  // ── Solution Pages (Vertical SEO) ──
-  const solutionPages: MetadataRoute.Sitemap = getAllSolutionSlugs().map((slug) => ({
-    url: `${BASE_URL}/solutions/${slug}`,
-    lastModified: now,
-    changeFrequency: "monthly" as const,
-    priority: 0.8,
-  }));
+    entries.push({
+      url: `${BASE_URL}/${locale}/blog`,
+      lastModified: now,
+      changeFrequency: "daily",
+      priority: 0.9,
+      alternates: getAlternates("/blog"),
+    });
 
-  // ── Competitor Pages (Bottom of Funnel SEO) ──
-  const competitorPages: MetadataRoute.Sitemap = getAllCompetitorSlugs().map((slug) => ({
-    url: `${BASE_URL}/vs/${slug}`,
-    lastModified: now,
-    changeFrequency: "monthly" as const,
-    priority: 0.9, // High priority because these are high-converting intent pages
-  }));
+    entries.push({
+      url: `${BASE_URL}/${locale}/free-tools`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.9,
+      alternates: getAlternates("/free-tools"),
+    });
 
-  // ── AI Prompt Library (Search Intent SEO) ──
-  const promptIndex: MetadataRoute.Sitemap = [
-    { url: `${BASE_URL}/prompts`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
-  ];
+    entries.push({
+      url: `${BASE_URL}/${locale}/prompts`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.8,
+      alternates: getAlternates("/prompts"),
+    });
 
-  const promptPages: MetadataRoute.Sitemap = getAllPromptSlugs().map((slug) => ({
-    url: `${BASE_URL}/prompts/${slug}`,
-    lastModified: now,
-    changeFrequency: "monthly" as const,
-    priority: 0.8,
-  }));
+    // ── Free Tools ──
+    getAllToolSlugs().forEach((slug) => {
+      entries.push({
+        url: `${BASE_URL}/${locale}/free-tools/${slug}`,
+        lastModified: now,
+        changeFrequency: "monthly",
+        priority: 0.8,
+        alternates: getAlternates(`/free-tools/${slug}`),
+      });
+    });
 
-  // ── Blog Posts ──
-  const posts = getAllPosts("en");
-  const blogPages: MetadataRoute.Sitemap = posts.map((post) => ({
-    url: `${BASE_URL}/blog/${post.slug}`,
-    lastModified: post.publishedAt || now,
-    changeFrequency: "monthly" as const,
-    priority: 0.7,
-  }));
+    // ── Solutions ──
+    getAllSolutionSlugs().forEach((slug) => {
+      entries.push({
+        url: `${BASE_URL}/${locale}/solutions/${slug}`,
+        lastModified: now,
+        changeFrequency: "monthly",
+        priority: 0.8,
+        alternates: getAlternates(`/solutions/${slug}`),
+      });
+    });
 
-  return [...corePages, ...toolPages, ...solutionPages, ...competitorPages, ...promptIndex, ...promptPages, ...blogPages];
+    // ── Competitor Pages ──
+    getAllCompetitorSlugs().forEach((slug) => {
+      entries.push({
+        url: `${BASE_URL}/${locale}/vs/${slug}`,
+        lastModified: now,
+        changeFrequency: "monthly",
+        priority: 0.9,
+        alternates: getAlternates(`/vs/${slug}`),
+      });
+    });
+
+    // ── Prompt Library ──
+    getAllPromptSlugs().forEach((slug) => {
+      entries.push({
+        url: `${BASE_URL}/${locale}/prompts/${slug}`,
+        lastModified: now,
+        changeFrequency: "monthly",
+        priority: 0.8,
+        alternates: getAlternates(`/prompts/${slug}`),
+      });
+    });
+
+    // ── Blog Posts ──
+    // Note: We use 'en' posts as the master list for sitemap generation
+    // since we have fallback logic in place.
+    const posts = getAllPosts("en");
+    posts.forEach((post) => {
+      entries.push({
+        url: `${BASE_URL}/${locale}/blog/${post.slug}`,
+        lastModified: post.publishedAt || now,
+        changeFrequency: "monthly",
+        priority: 0.7,
+        alternates: getAlternates(`/blog/${post.slug}`),
+      });
+    });
+  });
+
+  return entries;
 }

@@ -1,5 +1,5 @@
 ---
-heroImage: 'https://images.unsplash.com/photo-1504868584819-f8e90526354c?q=80&w=1200&auto=format&fit=crop'
+heroImage: 'https://images.unsplash.com/photo-1508921340878-ba53e1f016ec?q=80&w=1200&auto=format&fit=crop'
 title: 'Reducing Time to Insight: How AI Cuts Analytics Bottlenecks by 90% in 2026'
 description: >-
   Time to insight is the single most important metric in modern analytics. Learn

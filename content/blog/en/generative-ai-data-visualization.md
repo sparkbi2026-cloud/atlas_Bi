@@ -1,5 +1,5 @@
 ---
-heroImage: 'https://images.unsplash.com/photo-1504868584819-f8e90526354c?q=80&w=1200&auto=format&fit=crop'
+heroImage: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1200&auto=format&fit=crop'
 title: 'Generative AI for Data Visualization: How LLMs Are Reinventing Charts, Dashboards, and Data Storytelling in 2026'
 description: >-
   Generative AI is fundamentally changing how data visualizations are created,

@@ -1,0 +1,76 @@
+{
+  "hero": {
+    "badge": "Datenanalyse neu gedacht",
+    "title_part1": "Professionelle Charts.",
+    "title_italic": "In Sekunden erstellt.",
+    "description": "Schluss mit komplexen BI-Tools. AtlasBI verwandelt Rohdaten sofort in beeindruckende, präsentationsfertige Visualisierungen. Der schnellste Weg, Erkenntnisse zu teilen und datengestützte Entscheidungen im Team zu treffen.",
+    "button_primary": "Kostenlos starten",
+    "button_secondary": "Demo ansehen",
+    "trust": "Über 5.000 Teams vertrauen AtlasBI",
+    "rating": "4,9/5 auf G2"
+  },
+  "features": {
+    "badge": "Entwickelt für moderne Daten-Workflows",
+    "description": "Alles, was Sie brauchen, um Rohdaten in Sekundenschnelle in professionelle Erkenntnisse zu verwandeln."
+  },
+  "teams": {
+    "title": "Entwickelt für jedes Team und jeden Workflow",
+    "description": "AtlasBI ermöglicht es jedem – vom Startup bis zum Unternehmen –, sofort Erkenntnisse in seinen Daten zu finden.",
+    "by_industry": "Nach Branche",
+    "by_team": "Nach Team",
+    "by_size": "Nach Größe"
+  },
+  "comparison": {
+    "title": "Warum AtlasBI?",
+    "description": "Herkömmliche BI-Tools wurden für Datenanalysten entwickelt. AtlasBI wurde für das gesamte Team entwickelt.",
+    "traditional_title": "Herkömmliche Tools",
+    "traditional_subtitle": "Power BI, Tableau, Excel",
+    "atlas_title": "AtlasBI Intelligenz",
+    "atlas_subtitle": "Unterstützt durch autonome KI",
+    "winner": "Der Gewinner",
+    "traditional_features": [
+      { "title": "Steile Lernkurve", "desc": "Erfordert technische Schulung und manuelle Einrichtung für jedes Dashboard." },
+      { "title": "Isolierte Datenaufbereitung", "desc": "Daten müssen vor der Visualisierung manuell bereinigt und strukturiert werden." },
+      { "title": "Statische Berichte", "desc": "Dashboards erfordern oft manuelle Aktualisierungen und sind nicht live-kollaborativ." },
+      { "title": "Hohe Analystenabhängigkeit", "desc": "Teams warten Tage darauf, dass Analysten spezifische Ansichten erstellen oder aktualisieren." },
+      { "title": "Generische Design-Ästhetik", "desc": "Standard-Charts, die zusätzliche Tools für präsentationsreife Qualität erfordern." },
+      { "title": "Fragmentierter Dateiaustausch", "desc": "Der Austausch erfordert den Export von PDFs oder das Versenden großer, statischer Dateien." }
+    ],
+    "atlas_features": [
+      { "title": "Keine Lernkurve", "desc": "Erstellen Sie professionelle Charts sofort mit Eingaben in natürlicher Sprache." },
+      { "title": "Autonome Datenaufbereitung", "desc": "Die KI fasst Ihre Datensätze automatisch zusammen, bereinigt und strukturiert sie." },
+      { "title": "Live-Zusammenarbeit", "desc": "Jedes Dashboard ist standardmäßig live und kollaborativ für Ihr gesamtes Team." },
+      { "title": "Sofortige Self-Service-Insights", "desc": "Jeder kann in Sekundenschnelle Antworten erhalten, ohne auf ein Datenteam warten zu müssen." },
+      { "title": "Visueller Schliff in Studioqualität", "desc": "Präsentationsreife Ästhetik direkt nach dem Auspacken, keine zusätzliche Designarbeit erforderlich." },
+      { "title": "Kollaborative Links in Echtzeit", "desc": "Teilen Sie interaktive Live-Links, die aktualisiert werden, wenn sich Ihre Daten ändern." }
+    ]
+  },
+  "pricing": {
+    "title": "Einfache, transparente Preise",
+    "description": "Starten Sie kostenlos und skalieren Sie Ihre Visualisierungen, wenn Ihre Daten wachsen. Keine versteckten Gebühren.",
+    "monthly": "Monatlich",
+    "yearly": "Jährlich",
+    "save": "40% sparen",
+    "annual_billing": "Jährliche Abrechnung",
+    "hobby_features": ["Bis zu 3 Basis-Dashboards", "Standard-CSV-Uploads", "Community-Support", "Basis-Visualisierungen", "7 Tage Datenaufbewahrung"],
+    "pro_features": ["Unbegrenzte Dashboards", "Live-Datenbankverbindungen", "KI-Insights & Chart-Generierung", "Eigene Domain & White-Labeling", "Dashboard-Sharing & Tracking", "Prioritärer E-Mail-Support"],
+    "enterprise_features": ["Dedizierter Account-Manager", "SSO- & SAML-Authentifizierung", "On-Premise-Bereitstellungsoptionen", "Individuelles KI-Modell-Training", "Telefon-Support rund um die Uhr", "SLA-Garantien"]
+  },
+  "footer": {
+    "cta_title": "Bereit, Ihre Daten zu transformieren?",
+    "cta_button": "Kostenlos starten"
+  },
+  "video": {
+    "title_part1": "Ein Arbeitsbereich für Daten,",
+    "title_part2": "Intelligenz und Storytelling",
+    "description": "AtlasBI vereint alles, was Datenteams benötigen. Verbinden Sie Ihre Datenquellen. Erstellen und teilen Sie professionelle Charts mit Ihrem Team. Prüfen Sie Datensätze auf Genauigkeit. Generieren Sie neue Erkenntnisse mit KI-Chat. Alles in einem sauberen, schnellen Arbeitsbereich."
+  },
+  "navbar": {
+    "features": "Funktionen",
+    "pricing": "Preise",
+    "prompts": "Prompt-Bibliothek",
+    "tools": "Gratis-Tools",
+    "blog": "Blog",
+    "get_started": "Jetzt starten"
+  }
+}

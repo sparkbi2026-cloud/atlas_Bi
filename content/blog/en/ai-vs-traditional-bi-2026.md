@@ -1,5 +1,5 @@
 ---
-heroImage: 'https://images.unsplash.com/photo-1504868584819-f8e90526354c?q=80&w=1200&auto=format&fit=crop'
+heroImage: 'https://images.unsplash.com/photo-15222071823991-b515d997b407?q=80&w=1200&auto=format&fit=crop'
 title: 'AI BI vs Traditional BI: Which is Right for Your Team in 2026?'
 description: >-
   An honest breakdown of AI-powered business intelligence versus traditional BI

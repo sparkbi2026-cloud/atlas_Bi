@@ -1,5 +1,5 @@
 ---
-heroImage: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200&auto=format&fit=crop'
+heroImage: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop'
 title: 'How to Connect Google Sheets to AI Chart Tools: The Complete Integration Guide for 2026'
 description: >-
   Google Sheets remains the world's most popular data source for small and

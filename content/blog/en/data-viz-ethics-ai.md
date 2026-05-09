@@ -1,5 +1,5 @@
 ---
-heroImage: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop'
+heroImage: 'https://images.unsplash.com/photo-1526304640581-d334cdbdfbb5?q=80&w=1200&auto=format&fit=crop'
 title: 'Data Visualization Ethics in the Age of AI: How to Prevent Misleading Charts, Biased Insights, and Algorithmic Harm'
 description: >-
   AI-generated visualizations can mislead, manipulate, and cause real harm.

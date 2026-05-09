@@ -1,7 +1,7 @@
 import React from 'react';
 import InteractiveGridPattern from './InteractiveGridPattern';
 
-export default function VideoShowcase() {
+export default function VideoShowcase({ dictionary }: { dictionary: any }) {
   return (
     <section className="py-24 bg-white font-sans relative overflow-hidden">
       <div className="absolute inset-0 z-0 pointer-events-none opacity-80">
@@ -11,13 +11,11 @@ export default function VideoShowcase() {
         {/* Heading Section */}
         <div className="mb-16">
           <h2 className="serif-heading text-4xl md:text-6xl text-slate-900 mb-8 leading-[1.1] italic">
-            One workspace for data, <br className="hidden md:block" />
-            intelligence, and storytelling
+            {dictionary.video.title_part1} <br className="hidden md:block" />
+            {dictionary.video.title_part2}
           </h2>
           <p className="text-slate-500 text-lg max-w-3xl mx-auto leading-relaxed">
-            AtlasBI brings together everything data teams need. Connect your data sources. 
-            Build and share professional charts with your team. Audit datasets for accuracy. 
-            Generate new insights with AI chat. All in one clean, fast workspace.
+            {dictionary.video.description}
           </p>
         </div>
 

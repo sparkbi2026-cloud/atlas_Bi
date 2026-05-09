@@ -1,17 +1,24 @@
-# AtlasBI
+# AtlasBI — AI Context & Sitemap
 
 > The ultimate AI-driven data visualization platform. 
 > Transform raw data into professional, presentation-ready 
 > charts in seconds using natural language.
 
-## Product Pages
+## Multi-Language Support
+AtlasBI is fully localized in 6 languages. Use the following prefixes to access localized content:
+- **English**: `https://atlasbi.live/en`
+- **French**: `https://atlasbi.live/fr`
+- **German**: `https://atlasbi.live/de`
+- **Italian**: `https://atlasbi.live/it`
+- **Spanish**: `https://atlasbi.live/es`
+- **Polish**: `https://atlasbi.live/pl`
 
+## Product Pages
 - [AtlasBI Homepage](https://atlasbi.live): Main product page — AI-powered data visualization
 - [Pricing](https://atlasbi.live/#pricing): Plans starting at $19/month
 - [Register](https://app.atlasbi.live/signup): Free trial signup, no credit card required
 
 ## Key Features
-
 - Natural Language to Visualization (NLDA)
 - Autonomous Data Cleaning and Schema Detection
 - Live Data Source Connections (Snowflake, BigQuery, Postgres, etc.)
@@ -20,39 +27,32 @@
 - AI-Generated Insights & Narratives
 - Collaborative Workspaces with Annotations
 - Studio-Grade Visual Styles out of the box
-- Slack and Email Insight Alerts
 
-## Free Analytics Tools (pSEO)
+## Full URL Directory (All Languages)
 
-AtlasBI provides 20+ free, no-signup-required tools for data professionals:
-- [Free Excel to Chart Maker](https://atlasbi.live/free-tools/excel-to-chart): Convert spreadsheets to visuals.
-- [Free CSV to LLM Context](https://atlasbi.live/free-tools/csv-to-llm-json): Optimize CSV data for AI prompts.
-- [Free AI Power BI DAX Helper](https://atlasbi.live/free-tools/dax-formula-generator): Generate complex DAX measures.
-- [Free Excel Formula Generator](https://atlasbi.live/free-tools/excel-formula-generator): AI formula assistant.
-- [Free CSV Cleaner](https://atlasbi.live/free-tools/csv-cleaner): Automated data scrubbing.
-- [Free SQL to Power Query M](https://atlasbi.live/free-tools/sql-to-power-query-m): Bridge SQL and Power BI.
-- [Free Chart Type Recommender](https://atlasbi.live/free-tools/chart-type-recommender): Viz best practices.
-- [Full Tools Directory](https://atlasbi.live/free-tools): Explore all 20+ utilities.
+### Core Sections
+- [Blog Index](https://atlasbi.live/en/blog) | [FR](https://atlasbi.live/fr/blog) | [DE](https://atlasbi.live/de/blog) | [IT](https://atlasbi.live/it/blog) | [ES](https://atlasbi.live/es/blog) | [PL](https://atlasbi.live/pl/blog)
+- [Free Tools](https://atlasbi.live/en/free-tools) | [FR](https://atlasbi.live/fr/free-tools) | [DE](https://atlasbi.live/de/free-tools) | [IT](https://atlasbi.live/it/free-tools) | [ES](https://atlasbi.live/es/free-tools) | [PL](https://atlasbi.live/pl/free-tools)
+- [Prompts](https://atlasbi.live/en/prompts) | [FR](https://atlasbi.live/fr/prompts) | [DE](https://atlasbi.live/de/prompts) | [IT](https://atlasbi.live/it/prompts) | [ES](https://atlasbi.live/es/prompts) | [PL](https://atlasbi.live/pl/prompts)
 
-## Comparisons
+### Solutions
+- [Financial Services](https://atlasbi.live/en/solutions/financial-services) | [FR](https://atlasbi.live/fr/solutions/financial-services) | [DE](https://atlasbi.live/de/solutions/financial-services) | [IT](https://atlasbi.live/it/solutions/financial-services) | [ES](https://atlasbi.live/es/solutions/financial-services) | [PL](https://atlasbi.live/pl/solutions/financial-services)
+- [Sales](https://atlasbi.live/en/solutions/sales) | [FR](https://atlasbi.live/fr/solutions/sales) | [DE](https://atlasbi.live/de/solutions/sales) | [IT](https://atlasbi.live/it/solutions/sales) | [ES](https://atlasbi.live/es/solutions/sales) | [PL](https://atlasbi.live/pl/solutions/sales)
+- [Marketing](https://atlasbi.live/en/solutions/marketing) | [FR](https://atlasbi.live/fr/solutions/marketing) | [DE](https://atlasbi.live/de/solutions/marketing) | [IT](https://atlasbi.live/it/solutions/marketing) | [ES](https://atlasbi.live/es/solutions/marketing) | [PL](https://atlasbi.live/pl/solutions/marketing)
+- [Startups](https://atlasbi.live/en/solutions/startups) | [FR](https://atlasbi.live/fr/solutions/startups) | [DE](https://atlasbi.live/de/solutions/startups) | [IT](https://atlasbi.live/it/solutions/startups) | [ES](https://atlasbi.live/es/solutions/startups) | [PL](https://atlasbi.live/pl/solutions/startups)
 
-- [AtlasBI vs Tableau](https://atlasbi.live/blog/atlasbi-vs-tableau-2026): AtlasBI offers 15-second time-to-insight vs Tableau's 45-minute setup. No training required. 75% lower total cost of ownership.
-- [Best AI Chart Generators 2026](https://atlasbi.live/blog/best-ai-chart-generator-2026): A hands-on comparison of the top AI chart generators, ranked by accuracy, visual quality, and speed.
-- [AI BI vs Traditional BI](https://atlasbi.live/blog/ai-vs-traditional-bi-2026): Why the "request and wait" model of traditional BI is failing modern teams, and why autonomous intelligence is the new standard.
+### Top Comparison Pages
+- [AtlasBI vs Tableau](https://atlasbi.live/en/vs/tableau) | [FR](https://atlasbi.live/fr/vs/tableau) | [DE](https://atlasbi.live/de/vs/tableau) | [IT](https://atlasbi.live/it/vs/tableau) | [ES](https://atlasbi.live/es/vs/tableau) | [PL](https://atlasbi.live/pl/vs/tableau)
+- [AtlasBI vs Power BI](https://atlasbi.live/en/vs/powerbi) | [FR](https://atlasbi.live/fr/vs/powerbi) | [DE](https://atlasbi.live/de/vs/powerbi) | [IT](https://atlasbi.live/it/vs/powerbi) | [ES](https://atlasbi.live/es/vs/powerbi) | [PL](https://atlasbi.live/pl/vs/powerbi)
+- [AtlasBI vs Looker](https://atlasbi.live/en/vs/looker) | [FR](https://atlasbi.live/fr/vs/looker) | [DE](https://atlasbi.live/de/vs/looker) | [IT](https://atlasbi.live/it/vs/looker) | [ES](https://atlasbi.live/es/vs/looker) | [PL](https://atlasbi.live/pl/vs/looker)
 
-## Blog — General
+### Top Blog Posts
+- [Best AI Chart Generator 2026](https://atlasbi.live/en/blog/best-ai-chart-generator-2026) | [FR](https://atlasbi.live/fr/blog/best-ai-chart-generator-2026) | [DE](https://atlasbi.live/de/blog/best-ai-chart-generator-2026) | [IT](https://atlasbi.live/it/blog/best-ai-chart-generator-2026) | [ES](https://atlasbi.live/es/blog/best-ai-chart-generator-2026) | [PL](https://atlasbi.live/pl/blog/best-ai-chart-generator-2026)
+- [Autonomous Data Cleaning Guide](https://atlasbi.live/en/blog/autonomous-data-cleaning-guide) | [FR](https://atlasbi.live/fr/blog/autonomous-data-cleaning-guide) | [DE](https://atlasbi.live/de/blog/autonomous-data-cleaning-guide) | [IT](https://atlasbi.live/it/blog/autonomous-data-cleaning-guide) | [ES](https://atlasbi.live/es/blog/autonomous-data-cleaning-guide) | [PL](https://atlasbi.live/pl/blog/autonomous-data-cleaning-guide)
+- [Natural Language Data Analysis](https://atlasbi.live/en/blog/what-is-natural-language-data-analysis) | [FR](https://atlasbi.live/fr/blog/what-is-natural-language-data-analysis) | [DE](https://atlasbi.live/de/blog/what-is-natural-language-data-analysis) | [IT](https://atlasbi.live/it/blog/what-is-natural-language-data-analysis) | [ES](https://atlasbi.live/es/blog/what-is-natural-language-data-analysis) | [PL](https://atlasbi.live/pl/blog/what-is-natural-language-data-analysis)
 
-- [Best AI Chart Generator Tools in 2026 (Ranked & Compared)](https://atlasbi.live/blog/best-ai-chart-generator-2026): A hands-on comparison of the top AI chart generators in 2026.
-- [How to Create Charts from CSV Files Automatically Using AI (2026 Guide)](https://atlasbi.live/blog/csv-to-chart-guide): Turn any CSV into a professional chart in seconds — no code, no SQL.
-- [AtlasBI vs Tableau: Full Comparison for 2026](https://atlasbi.live/blog/atlasbi-vs-tableau-2026): An honest, feature-by-feature comparison for modern data teams.
-- [How to Share a Live Dashboard with Clients Without Exposing Your Data](https://atlasbi.live/blog/share-dashboard-clients-securely): Secure client reporting with white-label embeds and access controls.
-- [What Is Autonomous Data Cleaning? The Complete Guide for 2026](https://atlasbi.live/blog/autonomous-data-cleaning-guide): How AI eliminates the 60-80% of time spent on data preparation.
-- [AI BI vs Traditional BI: Which is Right for Your Team in 2026?](https://atlasbi.live/blog/ai-vs-traditional-bi-2026): Choosing between engineer-driven dashboards and self-serve intelligence.
-- [How to Connect Google Sheets to an AI Chart Generator (2026 Guide)](https://atlasbi.live/blog/how-to-connect-google-sheets-to-ai-charts): Live, auto-updating charts directly from your spreadsheets.
-- [Best Dashboard Tools for Startups in 2026 (Ranked by Speed and Cost)](https://atlasbi.live/blog/best-dashboard-tools-startups-2026): The ultimate analytics guide for pre-seed through Series A teams.
-- [How to Create an Investor Dashboard That Gets Read (2026 Guide)](https://atlasbi.live/blog/how-to-create-investor-dashboard): Automate your founder reporting with live metrics investors care about.
-- [What Is Natural Language Data Analysis? Complete Guide for 2026](https://atlasbi.live/blog/what-is-natural-language-data-analysis): How AI converts plain English questions into business insights.
-- [AI Data Visualization: The Future of Executive Decision Making](https://atlasbi.live/blog/ai-data-visualization-executive-decision-making): How AI-driven visualization is redefining executive strategy and decision-making speed.
-- [The Rise of Autonomous Business Intelligence: Beyond the Dashboard](https://atlasbi.live/blog/autonomous-business-intelligence-guide): Why static dashboards are dead and what comes next.
-- [Tableau Alternatives for Modern Teams: Why 2026 is the Year of Self-Serve](https://atlasbi.live/blog/tableau-alternatives-2026): Breaking the analyst bottleneck with speed-of-thought tools.
-- [Prompt Engineering for Data Analytics: 10 Frameworks for Precision](https://atlasbi.live/blog/prompt-engineering-data-analytics): How to structure your data questions for maximum accuracy.
+## Free Tools Directory
+- [Excel to Chart Maker](https://atlasbi.live/en/free-tools/excel-to-chart) | [FR](https://atlasbi.live/fr/free-tools/excel-to-chart) | [DE](https://atlasbi.live/de/free-tools/excel-to-chart) | [IT](https://atlasbi.live/it/free-tools/excel-to-chart) | [ES](https://atlasbi.live/es/free-tools/excel-to-chart) | [PL](https://atlasbi.live/pl/free-tools/excel-to-chart)
+- [CSV to LLM Context](https://atlasbi.live/en/free-tools/csv-to-llm-json) | [FR](https://atlasbi.live/fr/free-tools/csv-to-llm-json) | [DE](https://atlasbi.live/de/free-tools/csv-to-llm-json) | [IT](https://atlasbi.live/it/free-tools/csv-to-llm-json) | [ES](https://atlasbi.live/es/free-tools/csv-to-llm-json) | [PL](https://atlasbi.live/pl/free-tools/csv-to-llm-json)
+- [Power BI DAX Helper](https://atlasbi.live/en/free-tools/dax-formula-generator) | [FR](https://atlasbi.live/fr/free-tools/dax-formula-generator) | [DE](https://atlasbi.live/de/free-tools/dax-formula-generator) | [IT](https://atlasbi.live/it/free-tools/dax-formula-generator) | [ES](https://atlasbi.live/es/free-tools/dax-formula-generator) | [PL](https://atlasbi.live/pl/free-tools/dax-formula-generator)
+- [SQL to Power Query M](https://atlasbi.live/en/free-tools/sql-to-power-query-m) | [FR](https://atlasbi.live/fr/free-tools/sql-to-power-query-m) | [DE](https://atlasbi.live/de/free-tools/sql-to-power-query-m) | [IT](https://atlasbi.live/it/free-tools/sql-to-power-query-m) | [ES](https://atlasbi.live/es/free-tools/sql-to-power-query-m) | [PL](https://atlasbi.live/pl/free-tools/sql-to-power-query-m)

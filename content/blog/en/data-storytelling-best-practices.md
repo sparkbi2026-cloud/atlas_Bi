@@ -1,5 +1,5 @@
 ---
-heroImage: 'https://images.unsplash.com/photo-1543286386-713bdd548da4?q=80&w=1200&auto=format&fit=crop'
+heroImage: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200&auto=format&fit=crop'
 title: 'Data Storytelling Best Practices: How to Turn Charts into Decisions in 2026'
 description: >-
   Data storytelling transforms raw visualizations into narratives that drive
