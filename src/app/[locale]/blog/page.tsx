@@ -7,7 +7,7 @@ import BlogSearchAndFilter from "@/components/ui/BlogSearchAndFilter";
 
 import { getDictionary } from "@/lib/get-dictionary";
 
-export default async function BlogPage({ params: { locale } }: { params: { locale: string } }) {
+export default async function BlogPage({ params: { locale } }: { params: { locale: any } }) {
    const dictionary = await getDictionary(locale);
    const posts = getAllPosts(locale as any);
 

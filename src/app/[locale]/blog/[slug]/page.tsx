@@ -70,7 +70,7 @@ export async function generateStaticParams() {
 
 export default async function BlogPostPage({ params }: { params: Promise<{ slug: string; locale: string }> }) {
   const { slug, locale } = await params;
-  const dictionary = await getDictionary(locale);
+  const dictionary = await getDictionary(locale as any);
   const post = getPostBySlug(slug, locale as any);
 
   if (!post) {
