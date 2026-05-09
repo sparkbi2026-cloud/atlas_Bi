@@ -62,7 +62,7 @@ import { getDictionary } from "@/lib/get-dictionary";
 
 export default async function SolutionPage({ params }: { params: Promise<{ solution: string; locale: string }> }) {
   const { solution: slug, locale } = await params;
-  const dictionary = await getDictionary(locale);
+  const dictionary = await getDictionary(locale as any);
   const solution = getSolutionBySlug(slug);
   if (!solution) notFound();
 

@@ -60,7 +60,7 @@ import { getDictionary } from "@/lib/get-dictionary";
 
 export default async function FreeToolPage({ params }: { params: Promise<{ tool: string; locale: string }> }) {
   const { tool: slug, locale } = await params;
-  const dictionary = await getDictionary(locale);
+  const dictionary = await getDictionary(locale as any);
   const tool = getToolBySlug(slug);
   if (!tool) notFound();
 

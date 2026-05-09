@@ -44,7 +44,7 @@ import { getDictionary } from "@/lib/get-dictionary";
 
 export default async function PromptPage({ params }: { params: Promise<{ slug: string; locale: string }> }) {
   const { slug, locale } = await params;
-  const dictionary = await getDictionary(locale);
+  const dictionary = await getDictionary(locale as any);
   const prompt = getPromptBySlug(slug);
   if (!prompt) notFound();
 

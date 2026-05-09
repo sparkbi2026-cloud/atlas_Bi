@@ -53,7 +53,7 @@ import { getDictionary } from "@/lib/get-dictionary";
 
 export default async function CompetitorPage({ params }: { params: Promise<{ competitor: string; locale: string }> }) {
   const { competitor: slug, locale } = await params;
-  const dictionary = await getDictionary(locale);
+  const dictionary = await getDictionary(locale as any);
   const competitor = getCompetitorBySlug(slug);
   if (!competitor) notFound();
 
