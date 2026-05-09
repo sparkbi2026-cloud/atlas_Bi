@@ -4,7 +4,7 @@ import React from "react";
 import { ShieldCheck, Lock, Globe, Zap, Award, Star } from "lucide-react";
 import InteractiveGridPattern from "./InteractiveGridPattern";
 
-export default function TrustSignals() {
+export default function TrustSignals({ dictionary }: { dictionary: any }) {
   return (
     <section className="py-24 bg-white relative overflow-hidden">
       <div className="absolute inset-0 z-0 pointer-events-none opacity-50">

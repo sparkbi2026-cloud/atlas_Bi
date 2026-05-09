@@ -31,7 +31,7 @@ const faqs = [
   }
 ];
 
-export default function FAQSection() {
+export default function FAQSection({ dictionary }: { dictionary: any }) {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   return (

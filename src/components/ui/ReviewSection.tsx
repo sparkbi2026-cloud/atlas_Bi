@@ -86,7 +86,7 @@ const ReviewCard = ({ review }: { review: typeof reviewsRow1[0] }) => (
   </div>
 );
 
-export default function ReviewSection() {
+export default function ReviewSection({ dictionary }: { dictionary: any }) {
   return (
     <section className="py-32 bg-white overflow-hidden">
       <div className="container mx-auto px-6 mb-20 text-center">
